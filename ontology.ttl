@@ -1,0 +1,410 @@
+@prefix : <http://www.cenpat-conicet.gob.ar/ontology/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@base <http://www.cenpat-conicet.gob.ar/ontology/> .
+
+<http://www.cenpat-conicet.gob.ar/ontology/> rdf:type owl:Ontology .
+
+#################################################################
+#    Annotation properties
+#################################################################
+
+###  http://rs.tdwg.org/dwc/terms/georeferenceRemarks
+<http://rs.tdwg.org/dwc/terms/georeferenceRemarks> rdf:type owl:AnnotationProperty .
+
+
+###  http://wikidata.org/prop/direct/p21
+<http://wikidata.org/prop/direct/p21> rdf:type owl:AnnotationProperty .
+
+
+###  http://xmlns.com/foaf/0.1/name
+<http://xmlns.com/foaf/0.1/name> rdf:type owl:AnnotationProperty .
+
+
+#################################################################
+#    Object Properties
+#################################################################
+
+###  http://www.cenpat-conicet.gob.ar/ontology/event_of
+:event_of rdf:type owl:ObjectProperty ;
+          owl:inverseOf :has_event ;
+          rdfs:domain :BioEvent ;
+          rdfs:range <http://rs.tdwg.org/dwc/terms/Occurrence> .
+
+
+###  http://www.cenpat-conicet.gob.ar/ontology/has_event
+:has_event rdf:type owl:ObjectProperty ;
+           rdfs:domain <http://rs.tdwg.org/dwc/terms/Occurrence> ;
+           rdfs:range :BioEvent .
+
+
+###  http://www.cenpat-conicet.gob.ar/ontology/has_in
+:has_in rdf:type owl:ObjectProperty .
+
+
+###  http://www.cenpat-conicet.gob.ar/ontology/has_location
+:has_location rdf:type owl:ObjectProperty ;
+              owl:inverseOf :location_of ;
+              rdfs:domain <http://rs.tdwg.org/dwc/terms/Event> ;
+              rdfs:range <http://purl.org/dc/terms/Location> .
+
+
+###  http://www.cenpat-conicet.gob.ar/ontology/has_part
+:has_part rdf:type owl:ObjectProperty ;
+          rdfs:domain <http://rdfs.org/ns/void#Dataset> ;
+          rdfs:range <http://rs.tdwg.org/dwc/terms/Occurrence> .
+
+
+###  http://www.cenpat-conicet.gob.ar/ontology/has_taxon
+:has_taxon rdf:type owl:ObjectProperty ;
+           owl:inverseOf :taxon_of ;
+           rdfs:domain <http://rs.tdwg.org/dwc/terms/Occurrence> ;
+           rdfs:range <http://rs.tdwg.org/dwc/terms/Taxon> .
+
+
+###  http://www.cenpat-conicet.gob.ar/ontology/into_eez
+:into_eez rdf:type owl:ObjectProperty ;
+          rdfs:domain <http://purl.org/dc/terms/Location> ;
+          rdfs:range :Region ;
+          rdfs:comment "eez: exclusive economic zone."^^xsd:string .
+
+
+###  http://www.cenpat-conicet.gob.ar/ontology/is_part_of
+:is_part_of rdf:type owl:ObjectProperty ;
+            rdfs:domain <http://rs.tdwg.org/dwc/terms/Occurrence> ;
+            rdfs:range <http://rdfs.org/ns/void#Dataset> .
+
+
+###  http://www.cenpat-conicet.gob.ar/ontology/location_of
+:location_of rdf:type owl:ObjectProperty ;
+             rdfs:domain <http://purl.org/dc/terms/Location> ;
+             rdfs:range <http://rs.tdwg.org/dwc/terms/Event> .
+
+
+###  http://www.cenpat-conicet.gob.ar/ontology/recorded_by
+:recorded_by rdf:type owl:ObjectProperty ;
+             rdfs:domain <http://rs.tdwg.org/dwc/terms/Occurrence> ;
+             rdfs:range <http://xmlns.com/foaf/0.1/Agent> .
+
+
+###  http://www.cenpat-conicet.gob.ar/ontology/taxon_of
+:taxon_of rdf:type owl:ObjectProperty ;
+          rdfs:domain <http://rs.tdwg.org/dwc/terms/Taxon> ;
+          rdfs:range <http://rs.tdwg.org/dwc/terms/Occurrence> .
+
+
+#################################################################
+#    Data properties
+#################################################################
+
+###  http://purl.org/dc/terms/source
+<http://purl.org/dc/terms/source> rdf:type owl:DatatypeProperty ;
+                                  rdfs:domain <http://rdfs.org/ns/void#Dataset> ;
+                                  rdfs:range xsd:anyURI .
+
+
+###  http://rs.tdwg.org/dwc/terms/basisOfRecord
+<http://rs.tdwg.org/dwc/terms/basisOfRecord> rdf:type owl:DatatypeProperty ;
+                                             rdfs:domain <http://rs.tdwg.org/dwc/terms/Occurrence> ;
+                                             rdfs:range xsd:string .
+
+
+###  http://rs.tdwg.org/dwc/terms/catalogNumber
+<http://rs.tdwg.org/dwc/terms/catalogNumber> rdf:type owl:DatatypeProperty ;
+                                             rdfs:domain <http://rs.tdwg.org/dwc/terms/Occurrence> ;
+                                             rdfs:range xsd:string .
+
+
+###  http://rs.tdwg.org/dwc/terms/class
+<http://rs.tdwg.org/dwc/terms/class> rdf:type owl:DatatypeProperty ;
+                                     rdfs:domain <http://rs.tdwg.org/dwc/terms/Taxon> ;
+                                     rdfs:range xsd:string .
+
+
+###  http://rs.tdwg.org/dwc/terms/collectionCode
+<http://rs.tdwg.org/dwc/terms/collectionCode> rdf:type owl:DatatypeProperty ;
+                                              rdfs:domain <http://rs.tdwg.org/dwc/terms/Occurrence> .
+
+
+###  http://rs.tdwg.org/dwc/terms/country
+<http://rs.tdwg.org/dwc/terms/country> rdf:type owl:DatatypeProperty ;
+                                       rdfs:domain <http://purl.org/dc/terms/Location> ;
+                                       rdfs:range xsd:string .
+
+
+###  http://rs.tdwg.org/dwc/terms/decimalLatitude
+<http://rs.tdwg.org/dwc/terms/decimalLatitude> rdf:type owl:DatatypeProperty ;
+                                               rdfs:domain <http://purl.org/dc/terms/Location> ;
+                                               rdfs:range xsd:decimal .
+
+
+###  http://rs.tdwg.org/dwc/terms/decimalLongitude
+<http://rs.tdwg.org/dwc/terms/decimalLongitude> rdf:type owl:DatatypeProperty ;
+                                                rdfs:domain <http://purl.org/dc/terms/Location> ;
+                                                rdfs:range xsd:decimal .
+
+
+###  http://rs.tdwg.org/dwc/terms/eventDate
+<http://rs.tdwg.org/dwc/terms/eventDate> rdf:type owl:DatatypeProperty ;
+                                         rdfs:domain :BioEvent ;
+                                         rdfs:range xsd:dateTime .
+
+
+###  http://rs.tdwg.org/dwc/terms/family
+<http://rs.tdwg.org/dwc/terms/family> rdf:type owl:DatatypeProperty ;
+                                      rdfs:domain <http://rs.tdwg.org/dwc/terms/Taxon> ;
+                                      rdfs:range xsd:string .
+
+
+###  http://rs.tdwg.org/dwc/terms/genus
+<http://rs.tdwg.org/dwc/terms/genus> rdf:type owl:DatatypeProperty ;
+                                     rdfs:domain <http://rs.tdwg.org/dwc/terms/Taxon> ;
+                                     rdfs:range xsd:string .
+
+
+###  http://rs.tdwg.org/dwc/terms/individualCount
+<http://rs.tdwg.org/dwc/terms/individualCount> rdf:type owl:DatatypeProperty ;
+                                               rdfs:domain <http://rs.tdwg.org/dwc/terms/Occurrence> ;
+                                               rdfs:range xsd:int .
+
+
+###  http://rs.tdwg.org/dwc/terms/kingdom
+<http://rs.tdwg.org/dwc/terms/kingdom> rdf:type owl:DatatypeProperty ;
+                                       rdfs:domain <http://rs.tdwg.org/dwc/terms/Taxon> ;
+                                       rdfs:range xsd:string .
+
+
+###  http://rs.tdwg.org/dwc/terms/locality
+<http://rs.tdwg.org/dwc/terms/locality> rdf:type owl:DatatypeProperty ;
+                                        rdfs:domain <http://purl.org/dc/terms/Location> ;
+                                        rdfs:range xsd:string .
+
+
+###  http://rs.tdwg.org/dwc/terms/locationID
+<http://rs.tdwg.org/dwc/terms/locationID> rdf:type owl:DatatypeProperty ;
+                                          rdfs:domain <http://purl.org/dc/terms/Location> ;
+                                          rdfs:range xsd:string .
+
+
+###  http://rs.tdwg.org/dwc/terms/maximumDepthInMeters
+<http://rs.tdwg.org/dwc/terms/maximumDepthInMeters> rdf:type owl:DatatypeProperty ;
+                                                    rdfs:domain <http://purl.org/dc/terms/Location> ;
+                                                    rdfs:range xsd:int .
+
+
+###  http://rs.tdwg.org/dwc/terms/minimumDepthInMeters
+<http://rs.tdwg.org/dwc/terms/minimumDepthInMeters> rdf:type owl:DatatypeProperty ;
+                                                    rdfs:domain <http://purl.org/dc/terms/Location> ;
+                                                    rdfs:range xsd:int .
+
+
+###  http://rs.tdwg.org/dwc/terms/occurrenceID
+<http://rs.tdwg.org/dwc/terms/occurrenceID> rdf:type owl:DatatypeProperty ;
+                                            rdfs:domain <http://rs.tdwg.org/dwc/terms/Occurrence> ;
+                                            rdfs:range xsd:string .
+
+
+###  http://rs.tdwg.org/dwc/terms/occurrenceRemarks
+<http://rs.tdwg.org/dwc/terms/occurrenceRemarks> rdf:type owl:DatatypeProperty ;
+                                                 rdfs:domain <http://rs.tdwg.org/dwc/terms/Occurrence> ;
+                                                 rdfs:range xsd:string .
+
+
+###  http://rs.tdwg.org/dwc/terms/order
+<http://rs.tdwg.org/dwc/terms/order> rdf:type owl:DatatypeProperty ;
+                                     rdfs:domain <http://rs.tdwg.org/dwc/terms/Taxon> .
+
+
+###  http://rs.tdwg.org/dwc/terms/phylum
+<http://rs.tdwg.org/dwc/terms/phylum> rdf:type owl:DatatypeProperty ;
+                                      rdfs:domain <http://rs.tdwg.org/dwc/terms/Taxon> ;
+                                      rdfs:range xsd:string .
+
+
+###  http://rs.tdwg.org/dwc/terms/scientificName
+<http://rs.tdwg.org/dwc/terms/scientificName> rdf:type owl:DatatypeProperty ;
+                                              rdfs:domain <http://rs.tdwg.org/dwc/terms/Taxon> ;
+                                              rdfs:range xsd:string .
+
+
+###  http://rs.tdwg.org/dwc/terms/scientificNameAuthorship
+<http://rs.tdwg.org/dwc/terms/scientificNameAuthorship> rdf:type owl:DatatypeProperty ;
+                                                        rdfs:domain <http://rs.tdwg.org/dwc/terms/Taxon> ;
+                                                        rdfs:range xsd:string .
+
+
+###  http://rs.tdwg.org/dwc/terms/sex
+<http://rs.tdwg.org/dwc/terms/sex> rdf:type owl:DatatypeProperty ;
+                                   rdfs:domain <http://rs.tdwg.org/dwc/terms/Occurrence> ;
+                                   rdfs:range xsd:string .
+
+
+###  http://rs.tdwg.org/dwc/terms/specificEpithet
+<http://rs.tdwg.org/dwc/terms/specificEpithet> rdf:type owl:DatatypeProperty ;
+                                               rdfs:domain <http://rs.tdwg.org/dwc/terms/Taxon> ;
+                                               rdfs:range xsd:string .
+
+
+###  http://rs.tdwg.org/dwc/terms/stateProvince
+<http://rs.tdwg.org/dwc/terms/stateProvince> rdf:type owl:DatatypeProperty ;
+                                             rdfs:domain <http://purl.org/dc/terms/Location> ;
+                                             rdfs:range xsd:string .
+
+
+###  http://rs.tdwg.org/dwc/terms/verbatimCoordinates
+<http://rs.tdwg.org/dwc/terms/verbatimCoordinates> rdf:type owl:DatatypeProperty ;
+                                                   rdfs:domain <http://purl.org/dc/terms/Location> ;
+                                                   rdfs:range xsd:string .
+
+
+###  http://rs.tdwg.org/dwc/terms/verbatimEventDate
+<http://rs.tdwg.org/dwc/terms/verbatimEventDate> rdf:type owl:DatatypeProperty ;
+                                                 rdfs:domain <http://purl.org/dc/terms/Location> ;
+                                                 rdfs:range xsd:string .
+
+
+###  http://rs.tdwg.org/dwc/terms/verbatimLatitude
+<http://rs.tdwg.org/dwc/terms/verbatimLatitude> rdf:type owl:DatatypeProperty ;
+                                                rdfs:domain <http://purl.org/dc/terms/Location> ;
+                                                rdfs:range xsd:string .
+
+
+###  http://rs.tdwg.org/dwc/terms/verbatimLongitude
+<http://rs.tdwg.org/dwc/terms/verbatimLongitude> rdf:type owl:DatatypeProperty ;
+                                                 rdfs:domain <http://purl.org/dc/terms/Location> ;
+                                                 rdfs:range xsd:string .
+
+
+###  http://rs.tdwg.org/dwc/terms/waterBody
+<http://rs.tdwg.org/dwc/terms/waterBody> rdf:type owl:DatatypeProperty ;
+                                         rdfs:domain <http://purl.org/dc/terms/Location> ;
+                                         rdfs:range xsd:string .
+
+
+###  http://www.w3.org/2003/01/geo/wgs84_pos#lat
+<http://www.w3.org/2003/01/geo/wgs84_pos#lat> rdf:type owl:DatatypeProperty ;
+                                              rdfs:domain <http://purl.org/dc/terms/Location> ;
+                                              rdfs:range xsd:decimal .
+
+
+###  http://www.w3.org/2003/01/geo/wgs84_pos#long
+<http://www.w3.org/2003/01/geo/wgs84_pos#long> rdf:type owl:DatatypeProperty ;
+                                               rdfs:domain <http://purl.org/dc/terms/Location> ;
+                                               rdfs:range xsd:decimal .
+
+
+#################################################################
+#    Classes
+#################################################################
+
+###  http://purl.obolibrary.org/obo/ENVO_00000428
+<http://purl.obolibrary.org/obo/ENVO_00000428> rdf:type owl:Class ;
+                                               rdfs:comment "Biome"^^xsd:string .
+
+
+###  http://purl.obolibrary.org/obo/ENVO_00002297
+<http://purl.obolibrary.org/obo/ENVO_00002297> rdf:type owl:Class ;
+                                               rdfs:comment "enviromental feature"^^xsd:string .
+
+
+###  http://purl.obolibrary.org/obo/ENVO_00010483
+<http://purl.obolibrary.org/obo/ENVO_00010483> rdf:type owl:Class ;
+                                               rdfs:comment "enviromental material"^^xsd:string .
+
+
+###  http://purl.org/dc/terms/Location
+<http://purl.org/dc/terms/Location> rdf:type owl:Class ;
+                                    rdfs:subClassOf [ rdf:type owl:Restriction ;
+                                                      owl:onProperty :location_of ;
+                                                      owl:someValuesFrom :BioEvent
+                                                    ] ,
+                                                    [ rdf:type owl:Restriction ;
+                                                      owl:onProperty :into_eez ;
+                                                      owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                                      owl:onClass :Region
+                                                    ] .
+
+
+###  http://rdfs.org/ns/void#Dataset
+<http://rdfs.org/ns/void#Dataset> rdf:type owl:Class ;
+                                  rdfs:subClassOf [ rdf:type owl:Restriction ;
+                                                    owl:onProperty :has_part ;
+                                                    owl:someValuesFrom <http://rs.tdwg.org/dwc/terms/Occurrence>
+                                                  ] .
+
+
+###  http://rs.tdwg.org/dwc/terms/Event
+<http://rs.tdwg.org/dwc/terms/Event> rdf:type owl:Class .
+
+
+###  http://rs.tdwg.org/dwc/terms/Occurrence
+<http://rs.tdwg.org/dwc/terms/Occurrence> rdf:type owl:Class ;
+                                          rdfs:subClassOf [ rdf:type owl:Restriction ;
+                                                            owl:onProperty :recorded_by ;
+                                                            owl:minQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                                            owl:onClass <http://xmlns.com/foaf/0.1/Agent>
+                                                          ] ,
+                                                          [ rdf:type owl:Restriction ;
+                                                            owl:onProperty :has_event ;
+                                                            owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                                            owl:onClass :BioEvent
+                                                          ] ,
+                                                          [ rdf:type owl:Restriction ;
+                                                            owl:onProperty :has_taxon ;
+                                                            owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                                            owl:onClass <http://rs.tdwg.org/dwc/terms/Taxon>
+                                                          ] ,
+                                                          [ rdf:type owl:Restriction ;
+                                                            owl:onProperty :is_part_of ;
+                                                            owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                                            owl:onClass <http://rdfs.org/ns/void#Dataset>
+                                                          ] .
+
+
+###  http://rs.tdwg.org/dwc/terms/Taxon
+<http://rs.tdwg.org/dwc/terms/Taxon> rdf:type owl:Class ;
+                                     rdfs:subClassOf [ rdf:type owl:Restriction ;
+                                                       owl:onProperty :taxon_of ;
+                                                       owl:minQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                                       owl:onClass <http://rs.tdwg.org/dwc/terms/Occurrence>
+                                                     ] .
+
+
+###  http://www.cenpat-conicet.gob.ar/ontology/BioEvent
+:BioEvent rdf:type owl:Class ;
+          rdfs:subClassOf <http://rs.tdwg.org/dwc/terms/Event> ,
+                          <http://www.w3.org/2006/time#TemporalEntity> ,
+                          [ rdf:type owl:Restriction ;
+                            owl:onProperty :event_of ;
+                            owl:someValuesFrom <http://rs.tdwg.org/dwc/terms/Occurrence>
+                          ] ,
+                          [ rdf:type owl:Restriction ;
+                            owl:onProperty :has_location ;
+                            owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                            owl:onClass <http://purl.org/dc/terms/Location>
+                          ] .
+
+
+###  http://www.cenpat-conicet.gob.ar/ontology/Region
+:Region rdf:type owl:Class ;
+        rdfs:subClassOf <http://purl.obolibrary.org/obo/ENVO_00000428> ,
+                        <http://purl.obolibrary.org/obo/ENVO_00002297> ,
+                        <http://purl.obolibrary.org/obo/ENVO_00010483> ,
+                        [ rdf:type owl:Restriction ;
+                          owl:onProperty :has_in ;
+                          owl:someValuesFrom <http://purl.org/dc/terms/Location>
+                        ] .
+
+
+###  http://www.w3.org/2006/time#TemporalEntity
+<http://www.w3.org/2006/time#TemporalEntity> rdf:type owl:Class .
+
+
+###  http://xmlns.com/foaf/0.1/Agent
+<http://xmlns.com/foaf/0.1/Agent> rdf:type owl:Class .
+
+
+###  Generated by the OWL API (version 5.1.0) https://github.com/owlcs/owlapi/

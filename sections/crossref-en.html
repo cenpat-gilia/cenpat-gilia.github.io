@@ -1,0 +1,1623 @@
+<h2  id="crossreference" class="list">Cross reference for [Ontology Name] classes, properties and dataproperties <span class="backlink"> back to <a href="#toc">ToC</a></span></h2>
+This section provides details for each class and property defined by [Ontology Name].
+<div id="classes">
+   <h3 id="classes" class="list">Classes</h3>
+   <ul class="hlist">
+      <li>
+         <a href="#BioEvent"
+            title="http://www.cenpat-conicet.gob.ar/ontology/BioEvent">
+            <span>bio event</span>
+         </a>
+      </li>
+      <li>
+         <a href="#http://rdfs.org/ns/void#Dataset" title="http://rdfs.org/ns/void#Dataset">
+            <span>dataset</span>
+         </a>
+      </li>
+      <li>
+         <a href="#http://purl.obolibrary.org/obo/ENVO_00000428" title="http://purl.obolibrary.org/obo/ENVO_00000428">
+            <span>e n v o 00000428</span>
+         </a>
+      </li>
+      <li>
+         <a href="#http://purl.obolibrary.org/obo/ENVO_00002297" title="http://purl.obolibrary.org/obo/ENVO_00002297">
+            <span>e n v o 00002297</span>
+         </a>
+      </li>
+      <li>
+         <a href="#http://purl.obolibrary.org/obo/ENVO_00010483" title="http://purl.obolibrary.org/obo/ENVO_00010483">
+            <span>e n v o 00010483</span>
+         </a>
+      </li>
+      <li>
+         <a href="#http://purl.org/dc/terms/Location" title="http://purl.org/dc/terms/Location">
+            <span>location</span>
+         </a>
+      </li>
+      <li>
+         <a href="#http://rs.tdwg.org/dwc/terms/Occurrence" title="http://rs.tdwg.org/dwc/terms/Occurrence">
+            <span>occurrence</span>
+         </a>
+      </li>
+      <li>
+         <a href="#Region" title="http://www.cenpat-conicet.gob.ar/ontology/Region">
+            <span>region</span>
+         </a>
+      </li>
+      <li>
+         <a href="#http://rs.tdwg.org/dwc/terms/Taxon" title="http://rs.tdwg.org/dwc/terms/Taxon">
+            <span>taxon</span>
+         </a>
+      </li>
+   </ul>
+   <div class="entity" id="BioEvent">
+      <h3>bio event<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://www.cenpat-conicet.gob.ar/ontology/BioEvent</p>
+      <dl class="description">
+         <dt>has super-classes</dt>
+         <dd>
+            <span class="dotted" title="http://rs.tdwg.org/dwc/terms/Event">event</span>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+         <dd>
+            <span class="dotted" title="http://www.w3.org/2006/time#TemporalEntity">temporal entity</span>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+         <dd>
+            <a href="#event_of"
+               title="http://www.cenpat-conicet.gob.ar/ontology/event_of">event of</a>
+            <sup class="type-op" title="object property">op</sup> 
+            <span class="logic">some</span> 
+            <a href="#http://rs.tdwg.org/dwc/terms/Occurrence" title="http://rs.tdwg.org/dwc/terms/Occurrence">occurrence</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+         <dd>
+            <a href="#has_location"
+               title="http://www.cenpat-conicet.gob.ar/ontology/has_location">has location</a>
+            <sup class="type-op" title="object property">op</sup> 
+            <span class="logic">exactly</span> 1 <a href="#http://purl.org/dc/terms/Location" title="http://purl.org/dc/terms/Location">location</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+         <dt>is in domain of</dt>
+         <dd>
+            <a href="#http://rs.tdwg.org/dwc/terms/eventDate" title="http://rs.tdwg.org/dwc/terms/eventDate">event date</a>
+            <sup class="type-dp" title="data property">dp</sup>, <a href="#event_of"
+               title="http://www.cenpat-conicet.gob.ar/ontology/event_of">event of</a>
+            <sup class="type-op" title="object property">op</sup>
+         </dd>
+         <dt>is in range of</dt>
+         <dd>
+            <a href="#has_event"
+               title="http://www.cenpat-conicet.gob.ar/ontology/has_event">has event</a>
+            <sup class="type-op" title="object property">op</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="http://rdfs.org/ns/void#Dataset">
+      <h3>dataset<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://rdfs.org/ns/void#Dataset</p>
+      <dl class="description">
+         <dt>has super-classes</dt>
+         <dd>
+            <a href="#has_part"
+               title="http://www.cenpat-conicet.gob.ar/ontology/has_part">has part</a>
+            <sup class="type-op" title="object property">op</sup> 
+            <span class="logic">some</span> 
+            <a href="#http://rs.tdwg.org/dwc/terms/Occurrence" title="http://rs.tdwg.org/dwc/terms/Occurrence">occurrence</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+         <dt>is in domain of</dt>
+         <dd>
+            <a href="#has_part"
+               title="http://www.cenpat-conicet.gob.ar/ontology/has_part">has part</a>
+            <sup class="type-op" title="object property">op</sup>, <a href="#http://purl.org/dc/terms/source" title="http://purl.org/dc/terms/source">source</a>
+            <sup class="type-dp" title="data property">dp</sup>
+         </dd>
+         <dt>is in range of</dt>
+         <dd>
+            <a href="#is_part_of"
+               title="http://www.cenpat-conicet.gob.ar/ontology/is_part_of">is part of</a>
+            <sup class="type-op" title="object property">op</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="http://purl.obolibrary.org/obo/ENVO_00000428">
+      <h3>e n v o 00000428<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://purl.obolibrary.org/obo/ENVO_00000428</p>
+      <div class="comment">
+         <span class="markdown">Biome</span>
+      </div>
+      <dl class="description">
+         <dt>has sub-classes</dt>
+         <dd>
+            <a href="#Region" title="http://www.cenpat-conicet.gob.ar/ontology/Region">region</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="http://purl.obolibrary.org/obo/ENVO_00002297">
+      <h3>e n v o 00002297<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://purl.obolibrary.org/obo/ENVO_00002297</p>
+      <div class="comment">
+         <span class="markdown">enviromental feature</span>
+      </div>
+      <dl class="description">
+         <dt>has sub-classes</dt>
+         <dd>
+            <a href="#Region" title="http://www.cenpat-conicet.gob.ar/ontology/Region">region</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="http://purl.obolibrary.org/obo/ENVO_00010483">
+      <h3>e n v o 00010483<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://purl.obolibrary.org/obo/ENVO_00010483</p>
+      <div class="comment">
+         <span class="markdown">enviromental material</span>
+      </div>
+      <dl class="description">
+         <dt>has sub-classes</dt>
+         <dd>
+            <a href="#Region" title="http://www.cenpat-conicet.gob.ar/ontology/Region">region</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="http://purl.org/dc/terms/Location">
+      <h3>location<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://purl.org/dc/terms/Location</p>
+      <dl class="description">
+         <dt>has super-classes</dt>
+         <dd>
+            <a href="#location_of"
+               title="http://www.cenpat-conicet.gob.ar/ontology/location_of">location of</a>
+            <sup class="type-op" title="object property">op</sup> 
+            <span class="logic">some</span> 
+            <a href="#BioEvent"
+               title="http://www.cenpat-conicet.gob.ar/ontology/BioEvent">bio event</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+         <dd>
+            <a href="#into_eez"
+               title="http://www.cenpat-conicet.gob.ar/ontology/into_eez">into eez</a>
+            <sup class="type-op" title="object property">op</sup> 
+            <span class="logic">exactly</span> 1 <a href="#Region" title="http://www.cenpat-conicet.gob.ar/ontology/Region">region</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+         <dt>is in domain of</dt>
+         <dd>
+            <a href="#http://rs.tdwg.org/dwc/terms/country" title="http://rs.tdwg.org/dwc/terms/country">country</a>
+            <sup class="type-dp" title="data property">dp</sup>, <a href="#http://rs.tdwg.org/dwc/terms/decimalLatitude" title="http://rs.tdwg.org/dwc/terms/decimalLatitude">decimal latitude</a>
+            <sup class="type-dp" title="data property">dp</sup>, <a href="#http://rs.tdwg.org/dwc/terms/decimalLongitude" title="http://rs.tdwg.org/dwc/terms/decimalLongitude">decimal longitude</a>
+            <sup class="type-dp" title="data property">dp</sup>, <a href="#into_eez"
+               title="http://www.cenpat-conicet.gob.ar/ontology/into_eez">into eez</a>
+            <sup class="type-op" title="object property">op</sup>, <a href="#http://www.w3.org/2003/01/geo/wgs84_pos#lat" title="http://www.w3.org/2003/01/geo/wgs84_pos#lat">lat</a>
+            <sup class="type-dp" title="data property">dp</sup>, <a href="#http://rs.tdwg.org/dwc/terms/locality" title="http://rs.tdwg.org/dwc/terms/locality">locality</a>
+            <sup class="type-dp" title="data property">dp</sup>, <a href="#http://rs.tdwg.org/dwc/terms/locationID" title="http://rs.tdwg.org/dwc/terms/locationID">location i d</a>
+            <sup class="type-dp" title="data property">dp</sup>, <a href="#location_of"
+               title="http://www.cenpat-conicet.gob.ar/ontology/location_of">location of</a>
+            <sup class="type-op" title="object property">op</sup>, <a href="#http://www.w3.org/2003/01/geo/wgs84_pos#long" title="http://www.w3.org/2003/01/geo/wgs84_pos#long">long</a>
+            <sup class="type-dp" title="data property">dp</sup>, <a href="#http://rs.tdwg.org/dwc/terms/maximumDepthInMeters"
+               title="http://rs.tdwg.org/dwc/terms/maximumDepthInMeters">maximum depth in meters</a>
+            <sup class="type-dp" title="data property">dp</sup>, <a href="#http://rs.tdwg.org/dwc/terms/minimumDepthInMeters"
+               title="http://rs.tdwg.org/dwc/terms/minimumDepthInMeters">minimum depth in meters</a>
+            <sup class="type-dp" title="data property">dp</sup>, <a href="#http://rs.tdwg.org/dwc/terms/stateProvince" title="http://rs.tdwg.org/dwc/terms/stateProvince">state province</a>
+            <sup class="type-dp" title="data property">dp</sup>, <a href="#http://rs.tdwg.org/dwc/terms/verbatimCoordinates" title="http://rs.tdwg.org/dwc/terms/verbatimCoordinates">verbatim coordinates</a>
+            <sup class="type-dp" title="data property">dp</sup>, <a href="#http://rs.tdwg.org/dwc/terms/verbatimEventDate" title="http://rs.tdwg.org/dwc/terms/verbatimEventDate">verbatim event date</a>
+            <sup class="type-dp" title="data property">dp</sup>, <a href="#http://rs.tdwg.org/dwc/terms/verbatimLatitude" title="http://rs.tdwg.org/dwc/terms/verbatimLatitude">verbatim latitude</a>
+            <sup class="type-dp" title="data property">dp</sup>, <a href="#http://rs.tdwg.org/dwc/terms/verbatimLongitude" title="http://rs.tdwg.org/dwc/terms/verbatimLongitude">verbatim longitude</a>
+            <sup class="type-dp" title="data property">dp</sup>, <a href="#http://rs.tdwg.org/dwc/terms/waterBody" title="http://rs.tdwg.org/dwc/terms/waterBody">water body</a>
+            <sup class="type-dp" title="data property">dp</sup>
+         </dd>
+         <dt>is in range of</dt>
+         <dd>
+            <a href="#has_location"
+               title="http://www.cenpat-conicet.gob.ar/ontology/has_location">has location</a>
+            <sup class="type-op" title="object property">op</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="http://rs.tdwg.org/dwc/terms/Occurrence">
+      <h3>occurrence<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://rs.tdwg.org/dwc/terms/Occurrence</p>
+      <dl class="description">
+         <dt>has super-classes</dt>
+         <dd>
+            <a href="#recorded_by"
+               title="http://www.cenpat-conicet.gob.ar/ontology/recorded_by">recorded by</a>
+            <sup class="type-op" title="object property">op</sup> 
+            <span class="logic">min</span> 1 <span class="dotted" title="http://xmlns.com/foaf/0.1/Agent">agent</span>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+         <dd>
+            <a href="#has_event"
+               title="http://www.cenpat-conicet.gob.ar/ontology/has_event">has event</a>
+            <sup class="type-op" title="object property">op</sup> 
+            <span class="logic">exactly</span> 1 <a href="#BioEvent"
+               title="http://www.cenpat-conicet.gob.ar/ontology/BioEvent">bio event</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+         <dd>
+            <a href="#has_taxon"
+               title="http://www.cenpat-conicet.gob.ar/ontology/has_taxon">has taxon</a>
+            <sup class="type-op" title="object property">op</sup> 
+            <span class="logic">exactly</span> 1 <a href="#http://rs.tdwg.org/dwc/terms/Taxon" title="http://rs.tdwg.org/dwc/terms/Taxon">taxon</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+         <dd>
+            <a href="#is_part_of"
+               title="http://www.cenpat-conicet.gob.ar/ontology/is_part_of">is part of</a>
+            <sup class="type-op" title="object property">op</sup> 
+            <span class="logic">exactly</span> 1 <a href="#http://rdfs.org/ns/void#Dataset" title="http://rdfs.org/ns/void#Dataset">dataset</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+         <dt>is in domain of</dt>
+         <dd>
+            <a href="#http://rs.tdwg.org/dwc/terms/basisOfRecord" title="http://rs.tdwg.org/dwc/terms/basisOfRecord">basis of record</a>
+            <sup class="type-dp" title="data property">dp</sup>, <a href="#http://rs.tdwg.org/dwc/terms/catalogNumber" title="http://rs.tdwg.org/dwc/terms/catalogNumber">catalog number</a>
+            <sup class="type-dp" title="data property">dp</sup>, <a href="#http://rs.tdwg.org/dwc/terms/collectionCode" title="http://rs.tdwg.org/dwc/terms/collectionCode">collection code</a>
+            <sup class="type-dp" title="data property">dp</sup>, <a href="#has_event"
+               title="http://www.cenpat-conicet.gob.ar/ontology/has_event">has event</a>
+            <sup class="type-op" title="object property">op</sup>, <a href="#has_taxon"
+               title="http://www.cenpat-conicet.gob.ar/ontology/has_taxon">has taxon</a>
+            <sup class="type-op" title="object property">op</sup>, <a href="#http://rs.tdwg.org/dwc/terms/individualCount" title="http://rs.tdwg.org/dwc/terms/individualCount">individual count</a>
+            <sup class="type-dp" title="data property">dp</sup>, <a href="#is_part_of"
+               title="http://www.cenpat-conicet.gob.ar/ontology/is_part_of">is part of</a>
+            <sup class="type-op" title="object property">op</sup>, <a href="#http://rs.tdwg.org/dwc/terms/occurrenceID" title="http://rs.tdwg.org/dwc/terms/occurrenceID">occurrence i d</a>
+            <sup class="type-dp" title="data property">dp</sup>, <a href="#http://rs.tdwg.org/dwc/terms/occurrenceRemarks" title="http://rs.tdwg.org/dwc/terms/occurrenceRemarks">occurrence remarks</a>
+            <sup class="type-dp" title="data property">dp</sup>, <a href="#recorded_by"
+               title="http://www.cenpat-conicet.gob.ar/ontology/recorded_by">recorded by</a>
+            <sup class="type-op" title="object property">op</sup>, <a href="#http://rs.tdwg.org/dwc/terms/sex" title="http://rs.tdwg.org/dwc/terms/sex">sex</a>
+            <sup class="type-dp" title="data property">dp</sup>
+         </dd>
+         <dt>is in range of</dt>
+         <dd>
+            <a href="#event_of"
+               title="http://www.cenpat-conicet.gob.ar/ontology/event_of">event of</a>
+            <sup class="type-op" title="object property">op</sup>, <a href="#has_part"
+               title="http://www.cenpat-conicet.gob.ar/ontology/has_part">has part</a>
+            <sup class="type-op" title="object property">op</sup>, <a href="#taxon_of"
+               title="http://www.cenpat-conicet.gob.ar/ontology/taxon_of">taxon of</a>
+            <sup class="type-op" title="object property">op</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="Region">
+      <h3>region<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://www.cenpat-conicet.gob.ar/ontology/Region</p>
+      <dl class="description">
+         <dt>has super-classes</dt>
+         <dd>
+            <a href="#http://purl.obolibrary.org/obo/ENVO_00000428" title="http://purl.obolibrary.org/obo/ENVO_00000428">e n v o 00000428</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+         <dd>
+            <a href="#http://purl.obolibrary.org/obo/ENVO_00002297" title="http://purl.obolibrary.org/obo/ENVO_00002297">e n v o 00002297</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+         <dd>
+            <a href="#http://purl.obolibrary.org/obo/ENVO_00010483" title="http://purl.obolibrary.org/obo/ENVO_00010483">e n v o 00010483</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+         <dd>
+            <span class="dotted" title="http://www.cenpat-conicet.gob.ar/ontology/has_in">has in</span>
+            <sup class="type-op" title="object property">op</sup> 
+            <span class="logic">some</span> 
+            <a href="#http://purl.org/dc/terms/Location" title="http://purl.org/dc/terms/Location">location</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+         <dt>is in range of</dt>
+         <dd>
+            <a href="#into_eez"
+               title="http://www.cenpat-conicet.gob.ar/ontology/into_eez">into eez</a>
+            <sup class="type-op" title="object property">op</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="http://rs.tdwg.org/dwc/terms/Taxon">
+      <h3>taxon<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://rs.tdwg.org/dwc/terms/Taxon</p>
+      <dl class="description">
+         <dt>has super-classes</dt>
+         <dd>
+            <a href="#taxon_of"
+               title="http://www.cenpat-conicet.gob.ar/ontology/taxon_of">taxon of</a>
+            <sup class="type-op" title="object property">op</sup> 
+            <span class="logic">min</span> 1 <a href="#http://rs.tdwg.org/dwc/terms/Occurrence" title="http://rs.tdwg.org/dwc/terms/Occurrence">occurrence</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+         <dt>is in domain of</dt>
+         <dd>
+            <a href="#http://rs.tdwg.org/dwc/terms/class" title="http://rs.tdwg.org/dwc/terms/class">class</a>
+            <sup class="type-dp" title="data property">dp</sup>, <a href="#http://rs.tdwg.org/dwc/terms/family" title="http://rs.tdwg.org/dwc/terms/family">family</a>
+            <sup class="type-dp" title="data property">dp</sup>, <a href="#http://rs.tdwg.org/dwc/terms/genus" title="http://rs.tdwg.org/dwc/terms/genus">genus</a>
+            <sup class="type-dp" title="data property">dp</sup>, <a href="#http://rs.tdwg.org/dwc/terms/kingdom" title="http://rs.tdwg.org/dwc/terms/kingdom">kingdom</a>
+            <sup class="type-dp" title="data property">dp</sup>, <a href="#http://rs.tdwg.org/dwc/terms/order" title="http://rs.tdwg.org/dwc/terms/order">order</a>
+            <sup class="type-dp" title="data property">dp</sup>, <a href="#http://rs.tdwg.org/dwc/terms/phylum" title="http://rs.tdwg.org/dwc/terms/phylum">phylum</a>
+            <sup class="type-dp" title="data property">dp</sup>, <a href="#http://rs.tdwg.org/dwc/terms/scientificName" title="http://rs.tdwg.org/dwc/terms/scientificName">scientific name</a>
+            <sup class="type-dp" title="data property">dp</sup>, <a href="#http://rs.tdwg.org/dwc/terms/scientificNameAuthorship"
+               title="http://rs.tdwg.org/dwc/terms/scientificNameAuthorship">scientific name authorship</a>
+            <sup class="type-dp" title="data property">dp</sup>, <a href="#http://rs.tdwg.org/dwc/terms/specificEpithet" title="http://rs.tdwg.org/dwc/terms/specificEpithet">specific epithet</a>
+            <sup class="type-dp" title="data property">dp</sup>, <a href="#taxon_of"
+               title="http://www.cenpat-conicet.gob.ar/ontology/taxon_of">taxon of</a>
+            <sup class="type-op" title="object property">op</sup>
+         </dd>
+         <dt>is in range of</dt>
+         <dd>
+            <a href="#has_taxon"
+               title="http://www.cenpat-conicet.gob.ar/ontology/has_taxon">has taxon</a>
+            <sup class="type-op" title="object property">op</sup>
+         </dd>
+      </dl>
+   </div>
+</div><div id="objectproperties">
+   <h3 id="properties" class="list">Object Properties</h3>
+   <ul class="hlist">
+      <li>
+         <a href="#event_of"
+            title="http://www.cenpat-conicet.gob.ar/ontology/event_of">
+            <span>event of</span>
+         </a>
+      </li>
+      <li>
+         <a href="#has_event"
+            title="http://www.cenpat-conicet.gob.ar/ontology/has_event">
+            <span>has event</span>
+         </a>
+      </li>
+      <li>
+         <a href="#has_location"
+            title="http://www.cenpat-conicet.gob.ar/ontology/has_location">
+            <span>has location</span>
+         </a>
+      </li>
+      <li>
+         <a href="#has_part"
+            title="http://www.cenpat-conicet.gob.ar/ontology/has_part">
+            <span>has part</span>
+         </a>
+      </li>
+      <li>
+         <a href="#has_taxon"
+            title="http://www.cenpat-conicet.gob.ar/ontology/has_taxon">
+            <span>has taxon</span>
+         </a>
+      </li>
+      <li>
+         <a href="#into_eez"
+            title="http://www.cenpat-conicet.gob.ar/ontology/into_eez">
+            <span>into eez</span>
+         </a>
+      </li>
+      <li>
+         <a href="#is_part_of"
+            title="http://www.cenpat-conicet.gob.ar/ontology/is_part_of">
+            <span>is part of</span>
+         </a>
+      </li>
+      <li>
+         <a href="#location_of"
+            title="http://www.cenpat-conicet.gob.ar/ontology/location_of">
+            <span>location of</span>
+         </a>
+      </li>
+      <li>
+         <a href="#recorded_by"
+            title="http://www.cenpat-conicet.gob.ar/ontology/recorded_by">
+            <span>recorded by</span>
+         </a>
+      </li>
+      <li>
+         <a href="#taxon_of"
+            title="http://www.cenpat-conicet.gob.ar/ontology/taxon_of">
+            <span>taxon of</span>
+         </a>
+      </li>
+   </ul>
+   <div class="entity" id="event_of">
+      <h3>event of<sup class="type-op" title="object property">op</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://www.cenpat-conicet.gob.ar/ontology/event_of</p>
+      <div class="description">
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#BioEvent"
+                  title="http://www.cenpat-conicet.gob.ar/ontology/BioEvent">bio event</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <a href="#http://rs.tdwg.org/dwc/terms/Occurrence" title="http://rs.tdwg.org/dwc/terms/Occurrence">occurrence</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>is inverse of</dt>
+            <dd>
+               <a href="#has_event"
+                  title="http://www.cenpat-conicet.gob.ar/ontology/has_event">has event</a>
+               <sup class="type-op" title="object property">op</sup>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="has_event">
+      <h3>has event<sup class="type-op" title="object property">op</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://www.cenpat-conicet.gob.ar/ontology/has_event</p>
+      <div class="description">
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#http://rs.tdwg.org/dwc/terms/Occurrence" title="http://rs.tdwg.org/dwc/terms/Occurrence">occurrence</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <a href="#BioEvent"
+                  title="http://www.cenpat-conicet.gob.ar/ontology/BioEvent">bio event</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>is inverse of</dt>
+            <dd>
+               <a href="#event_of"
+                  title="http://www.cenpat-conicet.gob.ar/ontology/event_of">event of</a>
+               <sup class="type-op" title="object property">op</sup>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="has_location">
+      <h3>has location<sup class="type-op" title="object property">op</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://www.cenpat-conicet.gob.ar/ontology/has_location</p>
+      <div class="description">
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <span class="dotted" title="http://rs.tdwg.org/dwc/terms/Event">event</span>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <a href="#http://purl.org/dc/terms/Location" title="http://purl.org/dc/terms/Location">location</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>is inverse of</dt>
+            <dd>
+               <a href="#location_of"
+                  title="http://www.cenpat-conicet.gob.ar/ontology/location_of">location of</a>
+               <sup class="type-op" title="object property">op</sup>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="has_part">
+      <h3>has part<sup class="type-op" title="object property">op</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://www.cenpat-conicet.gob.ar/ontology/has_part</p>
+      <div class="description">
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#http://rdfs.org/ns/void#Dataset" title="http://rdfs.org/ns/void#Dataset">dataset</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <a href="#http://rs.tdwg.org/dwc/terms/Occurrence" title="http://rs.tdwg.org/dwc/terms/Occurrence">occurrence</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="has_taxon">
+      <h3>has taxon<sup class="type-op" title="object property">op</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://www.cenpat-conicet.gob.ar/ontology/has_taxon</p>
+      <div class="description">
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#http://rs.tdwg.org/dwc/terms/Occurrence" title="http://rs.tdwg.org/dwc/terms/Occurrence">occurrence</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <a href="#http://rs.tdwg.org/dwc/terms/Taxon" title="http://rs.tdwg.org/dwc/terms/Taxon">taxon</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>is inverse of</dt>
+            <dd>
+               <a href="#taxon_of"
+                  title="http://www.cenpat-conicet.gob.ar/ontology/taxon_of">taxon of</a>
+               <sup class="type-op" title="object property">op</sup>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="into_eez">
+      <h3>into eez<sup class="type-op" title="object property">op</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://www.cenpat-conicet.gob.ar/ontology/into_eez</p>
+      <div class="comment">
+         <span class="markdown">eez: exclusive economic zone.</span>
+      </div>
+      <div class="description">
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#http://purl.org/dc/terms/Location" title="http://purl.org/dc/terms/Location">location</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <a href="#Region" title="http://www.cenpat-conicet.gob.ar/ontology/Region">region</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="is_part_of">
+      <h3>is part of<sup class="type-op" title="object property">op</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://www.cenpat-conicet.gob.ar/ontology/is_part_of</p>
+      <div class="description">
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#http://rs.tdwg.org/dwc/terms/Occurrence" title="http://rs.tdwg.org/dwc/terms/Occurrence">occurrence</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <a href="#http://rdfs.org/ns/void#Dataset" title="http://rdfs.org/ns/void#Dataset">dataset</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="location_of">
+      <h3>location of<sup class="type-op" title="object property">op</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://www.cenpat-conicet.gob.ar/ontology/location_of</p>
+      <div class="description">
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#http://purl.org/dc/terms/Location" title="http://purl.org/dc/terms/Location">location</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <span class="dotted" title="http://rs.tdwg.org/dwc/terms/Event">event</span>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>is inverse of</dt>
+            <dd>
+               <a href="#has_location"
+                  title="http://www.cenpat-conicet.gob.ar/ontology/has_location">has location</a>
+               <sup class="type-op" title="object property">op</sup>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="recorded_by">
+      <h3>recorded by<sup class="type-op" title="object property">op</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://www.cenpat-conicet.gob.ar/ontology/recorded_by</p>
+      <div class="description">
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#http://rs.tdwg.org/dwc/terms/Occurrence" title="http://rs.tdwg.org/dwc/terms/Occurrence">occurrence</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <span class="dotted" title="http://xmlns.com/foaf/0.1/Agent">agent</span>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="taxon_of">
+      <h3>taxon of<sup class="type-op" title="object property">op</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://www.cenpat-conicet.gob.ar/ontology/taxon_of</p>
+      <div class="description">
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#http://rs.tdwg.org/dwc/terms/Taxon" title="http://rs.tdwg.org/dwc/terms/Taxon">taxon</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <a href="#http://rs.tdwg.org/dwc/terms/Occurrence" title="http://rs.tdwg.org/dwc/terms/Occurrence">occurrence</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>is inverse of</dt>
+            <dd>
+               <a href="#has_taxon"
+                  title="http://www.cenpat-conicet.gob.ar/ontology/has_taxon">has taxon</a>
+               <sup class="type-op" title="object property">op</sup>
+            </dd>
+         </dl>
+      </div>
+   </div>
+</div><div id="dataproperties">
+   <h3 id="dataproperties" class="list">Data Properties</h3>
+   <ul class="hlist">
+      <li>
+         <a href="#http://rs.tdwg.org/dwc/terms/basisOfRecord" title="http://rs.tdwg.org/dwc/terms/basisOfRecord">
+            <span>basis of record</span>
+         </a>
+      </li>
+      <li>
+         <a href="#http://rs.tdwg.org/dwc/terms/catalogNumber" title="http://rs.tdwg.org/dwc/terms/catalogNumber">
+            <span>catalog number</span>
+         </a>
+      </li>
+      <li>
+         <a href="#http://rs.tdwg.org/dwc/terms/class" title="http://rs.tdwg.org/dwc/terms/class">
+            <span>class</span>
+         </a>
+      </li>
+      <li>
+         <a href="#http://rs.tdwg.org/dwc/terms/collectionCode" title="http://rs.tdwg.org/dwc/terms/collectionCode">
+            <span>collection code</span>
+         </a>
+      </li>
+      <li>
+         <a href="#http://rs.tdwg.org/dwc/terms/country" title="http://rs.tdwg.org/dwc/terms/country">
+            <span>country</span>
+         </a>
+      </li>
+      <li>
+         <a href="#http://rs.tdwg.org/dwc/terms/decimalLatitude" title="http://rs.tdwg.org/dwc/terms/decimalLatitude">
+            <span>decimal latitude</span>
+         </a>
+      </li>
+      <li>
+         <a href="#http://rs.tdwg.org/dwc/terms/decimalLongitude" title="http://rs.tdwg.org/dwc/terms/decimalLongitude">
+            <span>decimal longitude</span>
+         </a>
+      </li>
+      <li>
+         <a href="#http://rs.tdwg.org/dwc/terms/eventDate" title="http://rs.tdwg.org/dwc/terms/eventDate">
+            <span>event date</span>
+         </a>
+      </li>
+      <li>
+         <a href="#http://rs.tdwg.org/dwc/terms/family" title="http://rs.tdwg.org/dwc/terms/family">
+            <span>family</span>
+         </a>
+      </li>
+      <li>
+         <a href="#http://rs.tdwg.org/dwc/terms/genus" title="http://rs.tdwg.org/dwc/terms/genus">
+            <span>genus</span>
+         </a>
+      </li>
+      <li>
+         <a href="#http://rs.tdwg.org/dwc/terms/individualCount" title="http://rs.tdwg.org/dwc/terms/individualCount">
+            <span>individual count</span>
+         </a>
+      </li>
+      <li>
+         <a href="#http://rs.tdwg.org/dwc/terms/kingdom" title="http://rs.tdwg.org/dwc/terms/kingdom">
+            <span>kingdom</span>
+         </a>
+      </li>
+      <li>
+         <a href="#http://www.w3.org/2003/01/geo/wgs84_pos#lat" title="http://www.w3.org/2003/01/geo/wgs84_pos#lat">
+            <span>lat</span>
+         </a>
+      </li>
+      <li>
+         <a href="#http://rs.tdwg.org/dwc/terms/locality" title="http://rs.tdwg.org/dwc/terms/locality">
+            <span>locality</span>
+         </a>
+      </li>
+      <li>
+         <a href="#http://rs.tdwg.org/dwc/terms/locationID" title="http://rs.tdwg.org/dwc/terms/locationID">
+            <span>location i d</span>
+         </a>
+      </li>
+      <li>
+         <a href="#http://www.w3.org/2003/01/geo/wgs84_pos#long" title="http://www.w3.org/2003/01/geo/wgs84_pos#long">
+            <span>long</span>
+         </a>
+      </li>
+      <li>
+         <a href="#http://rs.tdwg.org/dwc/terms/maximumDepthInMeters"
+            title="http://rs.tdwg.org/dwc/terms/maximumDepthInMeters">
+            <span>maximum depth in meters</span>
+         </a>
+      </li>
+      <li>
+         <a href="#http://rs.tdwg.org/dwc/terms/minimumDepthInMeters"
+            title="http://rs.tdwg.org/dwc/terms/minimumDepthInMeters">
+            <span>minimum depth in meters</span>
+         </a>
+      </li>
+      <li>
+         <a href="#http://rs.tdwg.org/dwc/terms/occurrenceID" title="http://rs.tdwg.org/dwc/terms/occurrenceID">
+            <span>occurrence i d</span>
+         </a>
+      </li>
+      <li>
+         <a href="#http://rs.tdwg.org/dwc/terms/occurrenceRemarks" title="http://rs.tdwg.org/dwc/terms/occurrenceRemarks">
+            <span>occurrence remarks</span>
+         </a>
+      </li>
+      <li>
+         <a href="#http://rs.tdwg.org/dwc/terms/order" title="http://rs.tdwg.org/dwc/terms/order">
+            <span>order</span>
+         </a>
+      </li>
+      <li>
+         <a href="#http://rs.tdwg.org/dwc/terms/phylum" title="http://rs.tdwg.org/dwc/terms/phylum">
+            <span>phylum</span>
+         </a>
+      </li>
+      <li>
+         <a href="#http://rs.tdwg.org/dwc/terms/scientificName" title="http://rs.tdwg.org/dwc/terms/scientificName">
+            <span>scientific name</span>
+         </a>
+      </li>
+      <li>
+         <a href="#http://rs.tdwg.org/dwc/terms/scientificNameAuthorship"
+            title="http://rs.tdwg.org/dwc/terms/scientificNameAuthorship">
+            <span>scientific name authorship</span>
+         </a>
+      </li>
+      <li>
+         <a href="#http://rs.tdwg.org/dwc/terms/sex" title="http://rs.tdwg.org/dwc/terms/sex">
+            <span>sex</span>
+         </a>
+      </li>
+      <li>
+         <a href="#http://purl.org/dc/terms/source" title="http://purl.org/dc/terms/source">
+            <span>source</span>
+         </a>
+      </li>
+      <li>
+         <a href="#http://rs.tdwg.org/dwc/terms/specificEpithet" title="http://rs.tdwg.org/dwc/terms/specificEpithet">
+            <span>specific epithet</span>
+         </a>
+      </li>
+      <li>
+         <a href="#http://rs.tdwg.org/dwc/terms/stateProvince" title="http://rs.tdwg.org/dwc/terms/stateProvince">
+            <span>state province</span>
+         </a>
+      </li>
+      <li>
+         <a href="#http://rs.tdwg.org/dwc/terms/verbatimCoordinates" title="http://rs.tdwg.org/dwc/terms/verbatimCoordinates">
+            <span>verbatim coordinates</span>
+         </a>
+      </li>
+      <li>
+         <a href="#http://rs.tdwg.org/dwc/terms/verbatimEventDate" title="http://rs.tdwg.org/dwc/terms/verbatimEventDate">
+            <span>verbatim event date</span>
+         </a>
+      </li>
+      <li>
+         <a href="#http://rs.tdwg.org/dwc/terms/verbatimLatitude" title="http://rs.tdwg.org/dwc/terms/verbatimLatitude">
+            <span>verbatim latitude</span>
+         </a>
+      </li>
+      <li>
+         <a href="#http://rs.tdwg.org/dwc/terms/verbatimLongitude" title="http://rs.tdwg.org/dwc/terms/verbatimLongitude">
+            <span>verbatim longitude</span>
+         </a>
+      </li>
+      <li>
+         <a href="#http://rs.tdwg.org/dwc/terms/waterBody" title="http://rs.tdwg.org/dwc/terms/waterBody">
+            <span>water body</span>
+         </a>
+      </li>
+   </ul>
+   <div class="entity" id="http://rs.tdwg.org/dwc/terms/basisOfRecord">
+      <h3>basis of record<sup class="type-dp" title="data property">dp</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#dataproperties">Data Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://rs.tdwg.org/dwc/terms/basisOfRecord</p>
+      <div class="description">
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#http://rs.tdwg.org/dwc/terms/Occurrence" title="http://rs.tdwg.org/dwc/terms/Occurrence">occurrence</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <span class="dotted" title="http://www.w3.org/2001/XMLSchema#string">string</span>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="http://rs.tdwg.org/dwc/terms/catalogNumber">
+      <h3>catalog number<sup class="type-dp" title="data property">dp</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#dataproperties">Data Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://rs.tdwg.org/dwc/terms/catalogNumber</p>
+      <div class="description">
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#http://rs.tdwg.org/dwc/terms/Occurrence" title="http://rs.tdwg.org/dwc/terms/Occurrence">occurrence</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <span class="dotted" title="http://www.w3.org/2001/XMLSchema#string">string</span>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="http://rs.tdwg.org/dwc/terms/class">
+      <h3>class<sup class="type-dp" title="data property">dp</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#dataproperties">Data Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://rs.tdwg.org/dwc/terms/class</p>
+      <div class="description">
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#http://rs.tdwg.org/dwc/terms/Taxon" title="http://rs.tdwg.org/dwc/terms/Taxon">taxon</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <span class="dotted" title="http://www.w3.org/2001/XMLSchema#string">string</span>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="http://rs.tdwg.org/dwc/terms/collectionCode">
+      <h3>collection code<sup class="type-dp" title="data property">dp</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#dataproperties">Data Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://rs.tdwg.org/dwc/terms/collectionCode</p>
+      <div class="description">
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#http://rs.tdwg.org/dwc/terms/Occurrence" title="http://rs.tdwg.org/dwc/terms/Occurrence">occurrence</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="http://rs.tdwg.org/dwc/terms/country">
+      <h3>country<sup class="type-dp" title="data property">dp</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#dataproperties">Data Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://rs.tdwg.org/dwc/terms/country</p>
+      <div class="description">
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#http://purl.org/dc/terms/Location" title="http://purl.org/dc/terms/Location">location</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <span class="dotted" title="http://www.w3.org/2001/XMLSchema#string">string</span>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="http://rs.tdwg.org/dwc/terms/decimalLatitude">
+      <h3>decimal latitude<sup class="type-dp" title="data property">dp</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#dataproperties">Data Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://rs.tdwg.org/dwc/terms/decimalLatitude</p>
+      <div class="description">
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#http://purl.org/dc/terms/Location" title="http://purl.org/dc/terms/Location">location</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <span class="dotted" title="http://www.w3.org/2001/XMLSchema#decimal">decimal</span>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="http://rs.tdwg.org/dwc/terms/decimalLongitude">
+      <h3>decimal longitude<sup class="type-dp" title="data property">dp</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#dataproperties">Data Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://rs.tdwg.org/dwc/terms/decimalLongitude</p>
+      <div class="description">
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#http://purl.org/dc/terms/Location" title="http://purl.org/dc/terms/Location">location</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <span class="dotted" title="http://www.w3.org/2001/XMLSchema#decimal">decimal</span>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="http://rs.tdwg.org/dwc/terms/eventDate">
+      <h3>event date<sup class="type-dp" title="data property">dp</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#dataproperties">Data Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://rs.tdwg.org/dwc/terms/eventDate</p>
+      <div class="description">
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#BioEvent"
+                  title="http://www.cenpat-conicet.gob.ar/ontology/BioEvent">bio event</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <span class="dotted" title="http://www.w3.org/2001/XMLSchema#dateTime">date time</span>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="http://rs.tdwg.org/dwc/terms/family">
+      <h3>family<sup class="type-dp" title="data property">dp</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#dataproperties">Data Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://rs.tdwg.org/dwc/terms/family</p>
+      <div class="description">
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#http://rs.tdwg.org/dwc/terms/Taxon" title="http://rs.tdwg.org/dwc/terms/Taxon">taxon</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <span class="dotted" title="http://www.w3.org/2001/XMLSchema#string">string</span>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="http://rs.tdwg.org/dwc/terms/genus">
+      <h3>genus<sup class="type-dp" title="data property">dp</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#dataproperties">Data Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://rs.tdwg.org/dwc/terms/genus</p>
+      <div class="description">
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#http://rs.tdwg.org/dwc/terms/Taxon" title="http://rs.tdwg.org/dwc/terms/Taxon">taxon</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <span class="dotted" title="http://www.w3.org/2001/XMLSchema#string">string</span>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="http://rs.tdwg.org/dwc/terms/individualCount">
+      <h3>individual count<sup class="type-dp" title="data property">dp</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#dataproperties">Data Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://rs.tdwg.org/dwc/terms/individualCount</p>
+      <div class="description">
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#http://rs.tdwg.org/dwc/terms/Occurrence" title="http://rs.tdwg.org/dwc/terms/Occurrence">occurrence</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <span class="dotted" title="http://www.w3.org/2001/XMLSchema#int">int</span>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="http://rs.tdwg.org/dwc/terms/kingdom">
+      <h3>kingdom<sup class="type-dp" title="data property">dp</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#dataproperties">Data Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://rs.tdwg.org/dwc/terms/kingdom</p>
+      <div class="description">
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#http://rs.tdwg.org/dwc/terms/Taxon" title="http://rs.tdwg.org/dwc/terms/Taxon">taxon</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <span class="dotted" title="http://www.w3.org/2001/XMLSchema#string">string</span>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="http://www.w3.org/2003/01/geo/wgs84_pos#lat">
+      <h3>lat<sup class="type-dp" title="data property">dp</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#dataproperties">Data Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://www.w3.org/2003/01/geo/wgs84_pos#lat</p>
+      <div class="description">
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#http://purl.org/dc/terms/Location" title="http://purl.org/dc/terms/Location">location</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <span class="dotted" title="http://www.w3.org/2001/XMLSchema#decimal">decimal</span>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="http://rs.tdwg.org/dwc/terms/locality">
+      <h3>locality<sup class="type-dp" title="data property">dp</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#dataproperties">Data Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://rs.tdwg.org/dwc/terms/locality</p>
+      <div class="description">
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#http://purl.org/dc/terms/Location" title="http://purl.org/dc/terms/Location">location</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <span class="dotted" title="http://www.w3.org/2001/XMLSchema#string">string</span>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="http://rs.tdwg.org/dwc/terms/locationID">
+      <h3>location i d<sup class="type-dp" title="data property">dp</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#dataproperties">Data Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://rs.tdwg.org/dwc/terms/locationID</p>
+      <div class="description">
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#http://purl.org/dc/terms/Location" title="http://purl.org/dc/terms/Location">location</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <span class="dotted" title="http://www.w3.org/2001/XMLSchema#string">string</span>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="http://www.w3.org/2003/01/geo/wgs84_pos#long">
+      <h3>long<sup class="type-dp" title="data property">dp</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#dataproperties">Data Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://www.w3.org/2003/01/geo/wgs84_pos#long</p>
+      <div class="description">
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#http://purl.org/dc/terms/Location" title="http://purl.org/dc/terms/Location">location</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <span class="dotted" title="http://www.w3.org/2001/XMLSchema#decimal">decimal</span>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="http://rs.tdwg.org/dwc/terms/maximumDepthInMeters">
+      <h3>maximum depth in meters<sup class="type-dp" title="data property">dp</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#dataproperties">Data Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://rs.tdwg.org/dwc/terms/maximumDepthInMeters</p>
+      <div class="description">
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#http://purl.org/dc/terms/Location" title="http://purl.org/dc/terms/Location">location</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <span class="dotted" title="http://www.w3.org/2001/XMLSchema#int">int</span>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="http://rs.tdwg.org/dwc/terms/minimumDepthInMeters">
+      <h3>minimum depth in meters<sup class="type-dp" title="data property">dp</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#dataproperties">Data Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://rs.tdwg.org/dwc/terms/minimumDepthInMeters</p>
+      <div class="description">
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#http://purl.org/dc/terms/Location" title="http://purl.org/dc/terms/Location">location</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <span class="dotted" title="http://www.w3.org/2001/XMLSchema#int">int</span>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="http://rs.tdwg.org/dwc/terms/occurrenceID">
+      <h3>occurrence i d<sup class="type-dp" title="data property">dp</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#dataproperties">Data Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://rs.tdwg.org/dwc/terms/occurrenceID</p>
+      <div class="description">
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#http://rs.tdwg.org/dwc/terms/Occurrence" title="http://rs.tdwg.org/dwc/terms/Occurrence">occurrence</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <span class="dotted" title="http://www.w3.org/2001/XMLSchema#string">string</span>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="http://rs.tdwg.org/dwc/terms/occurrenceRemarks">
+      <h3>occurrence remarks<sup class="type-dp" title="data property">dp</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#dataproperties">Data Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://rs.tdwg.org/dwc/terms/occurrenceRemarks</p>
+      <div class="description">
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#http://rs.tdwg.org/dwc/terms/Occurrence" title="http://rs.tdwg.org/dwc/terms/Occurrence">occurrence</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <span class="dotted" title="http://www.w3.org/2001/XMLSchema#string">string</span>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="http://rs.tdwg.org/dwc/terms/order">
+      <h3>order<sup class="type-dp" title="data property">dp</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#dataproperties">Data Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://rs.tdwg.org/dwc/terms/order</p>
+      <div class="description">
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#http://rs.tdwg.org/dwc/terms/Taxon" title="http://rs.tdwg.org/dwc/terms/Taxon">taxon</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="http://rs.tdwg.org/dwc/terms/phylum">
+      <h3>phylum<sup class="type-dp" title="data property">dp</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#dataproperties">Data Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://rs.tdwg.org/dwc/terms/phylum</p>
+      <div class="description">
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#http://rs.tdwg.org/dwc/terms/Taxon" title="http://rs.tdwg.org/dwc/terms/Taxon">taxon</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <span class="dotted" title="http://www.w3.org/2001/XMLSchema#string">string</span>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="http://rs.tdwg.org/dwc/terms/scientificName">
+      <h3>scientific name<sup class="type-dp" title="data property">dp</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#dataproperties">Data Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://rs.tdwg.org/dwc/terms/scientificName</p>
+      <div class="description">
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#http://rs.tdwg.org/dwc/terms/Taxon" title="http://rs.tdwg.org/dwc/terms/Taxon">taxon</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <span class="dotted" title="http://www.w3.org/2001/XMLSchema#string">string</span>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="http://rs.tdwg.org/dwc/terms/scientificNameAuthorship">
+      <h3>scientific name authorship<sup class="type-dp" title="data property">dp</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#dataproperties">Data Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://rs.tdwg.org/dwc/terms/scientificNameAuthorship</p>
+      <div class="description">
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#http://rs.tdwg.org/dwc/terms/Taxon" title="http://rs.tdwg.org/dwc/terms/Taxon">taxon</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <span class="dotted" title="http://www.w3.org/2001/XMLSchema#string">string</span>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="http://rs.tdwg.org/dwc/terms/sex">
+      <h3>sex<sup class="type-dp" title="data property">dp</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#dataproperties">Data Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://rs.tdwg.org/dwc/terms/sex</p>
+      <div class="description">
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#http://rs.tdwg.org/dwc/terms/Occurrence" title="http://rs.tdwg.org/dwc/terms/Occurrence">occurrence</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <span class="dotted" title="http://www.w3.org/2001/XMLSchema#string">string</span>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="http://purl.org/dc/terms/source">
+      <h3>source<sup class="type-dp" title="data property">dp</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#dataproperties">Data Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://purl.org/dc/terms/source</p>
+      <div class="description">
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#http://rdfs.org/ns/void#Dataset" title="http://rdfs.org/ns/void#Dataset">dataset</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <span class="dotted" title="http://www.w3.org/2001/XMLSchema#anyURI">any u r i</span>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="http://rs.tdwg.org/dwc/terms/specificEpithet">
+      <h3>specific epithet<sup class="type-dp" title="data property">dp</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#dataproperties">Data Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://rs.tdwg.org/dwc/terms/specificEpithet</p>
+      <div class="description">
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#http://rs.tdwg.org/dwc/terms/Taxon" title="http://rs.tdwg.org/dwc/terms/Taxon">taxon</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <span class="dotted" title="http://www.w3.org/2001/XMLSchema#string">string</span>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="http://rs.tdwg.org/dwc/terms/stateProvince">
+      <h3>state province<sup class="type-dp" title="data property">dp</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#dataproperties">Data Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://rs.tdwg.org/dwc/terms/stateProvince</p>
+      <div class="description">
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#http://purl.org/dc/terms/Location" title="http://purl.org/dc/terms/Location">location</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <span class="dotted" title="http://www.w3.org/2001/XMLSchema#string">string</span>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="http://rs.tdwg.org/dwc/terms/verbatimCoordinates">
+      <h3>verbatim coordinates<sup class="type-dp" title="data property">dp</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#dataproperties">Data Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://rs.tdwg.org/dwc/terms/verbatimCoordinates</p>
+      <div class="description">
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#http://purl.org/dc/terms/Location" title="http://purl.org/dc/terms/Location">location</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <span class="dotted" title="http://www.w3.org/2001/XMLSchema#string">string</span>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="http://rs.tdwg.org/dwc/terms/verbatimEventDate">
+      <h3>verbatim event date<sup class="type-dp" title="data property">dp</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#dataproperties">Data Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://rs.tdwg.org/dwc/terms/verbatimEventDate</p>
+      <div class="description">
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#http://purl.org/dc/terms/Location" title="http://purl.org/dc/terms/Location">location</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <span class="dotted" title="http://www.w3.org/2001/XMLSchema#string">string</span>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="http://rs.tdwg.org/dwc/terms/verbatimLatitude">
+      <h3>verbatim latitude<sup class="type-dp" title="data property">dp</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#dataproperties">Data Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://rs.tdwg.org/dwc/terms/verbatimLatitude</p>
+      <div class="description">
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#http://purl.org/dc/terms/Location" title="http://purl.org/dc/terms/Location">location</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <span class="dotted" title="http://www.w3.org/2001/XMLSchema#string">string</span>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="http://rs.tdwg.org/dwc/terms/verbatimLongitude">
+      <h3>verbatim longitude<sup class="type-dp" title="data property">dp</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#dataproperties">Data Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://rs.tdwg.org/dwc/terms/verbatimLongitude</p>
+      <div class="description">
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#http://purl.org/dc/terms/Location" title="http://purl.org/dc/terms/Location">location</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <span class="dotted" title="http://www.w3.org/2001/XMLSchema#string">string</span>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="http://rs.tdwg.org/dwc/terms/waterBody">
+      <h3>water body<sup class="type-dp" title="data property">dp</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#dataproperties">Data Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://rs.tdwg.org/dwc/terms/waterBody</p>
+      <div class="description">
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#http://purl.org/dc/terms/Location" title="http://purl.org/dc/terms/Location">location</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <span class="dotted" title="http://www.w3.org/2001/XMLSchema#string">string</span>
+            </dd>
+         </dl>
+      </div>
+   </div>
+</div><div id="annotationproperties">
+   <h3 id="annotationproperties" class="list">Annotation Properties</h3>
+   <ul class="hlist">
+      <li>
+         <a href="#http://rs.tdwg.org/dwc/terms/georeferenceRemarks" title="http://rs.tdwg.org/dwc/terms/georeferenceRemarks">
+            <span>georeference remarks</span>
+         </a>
+      </li>
+      <li>
+         <a href="#http://xmlns.com/foaf/0.1/name" title="http://xmlns.com/foaf/0.1/name">
+            <span>name</span>
+         </a>
+      </li>
+      <li>
+         <a href="#http://wikidata.org/prop/direct/p21" title="http://wikidata.org/prop/direct/p21">
+            <span>p21</span>
+         </a>
+      </li>
+   </ul>
+   <div class="entity" id="http://rs.tdwg.org/dwc/terms/georeferenceRemarks">
+      <h3>georeference remarks<sup class="type-ap" title="annotation property">ap</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#annotationproperties">Annotation Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://rs.tdwg.org/dwc/terms/georeferenceRemarks</p>
+   </div>
+   <div class="entity" id="http://xmlns.com/foaf/0.1/name">
+      <h3>name<sup class="type-ap" title="annotation property">ap</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#annotationproperties">Annotation Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://xmlns.com/foaf/0.1/name</p>
+   </div>
+   <div class="entity" id="http://wikidata.org/prop/direct/p21">
+      <h3>p21<sup class="type-ap" title="annotation property">ap</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#annotationproperties">Annotation Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://wikidata.org/prop/direct/p21</p>
+   </div>
+</div><div id="legend">
+<h2>Legend <span class="backlink"> back to <a href="#toc">ToC</a></span></h2>
+<div   class="entity">
+<sup class="type-c" title="Classes">c</sup>: Classes <br/>
+<sup class="type-op" title="Object Properties">op</sup>: Object Properties <br/>
+<sup class="type-dp" title="Data Properties">dp</sup>: Data Properties <br/>
+<sup class="type-ni" title="Named Individuals">ni</sup>: Named Individuals
+</div>
+</div>

@@ -1,0 +1,1165 @@
+{
+  "_comment" : "Created with OWL2VOWL (version 0.3.2-SNAPSHOT), http://vowl.visualdataweb.org",
+  "header" : {
+    "languages" : [ "undefined" ],
+    "baseIris" : [ "http://rdfs.org/ns/void", "http://rs.tdwg.org/dwc/terms", "http://purl.obolibrary.org/obo", "http://www.w3.org/2000/01/rdf-schema", "http://www.w3.org/2003/01/geo/wgs84_pos", "http://purl.org/dc/terms", "http://www.w3.org/2001/XMLSchema", "http://www.cenpat-conicet.gob.ar/ontology", "http://xmlns.com/foaf/0.1", "http://www.w3.org/2006/time" ],
+    "iri" : "http://www.cenpat-conicet.gob.ar/ontology/"
+  },
+  "namespace" : [ ],
+  "metrics" : {
+    "classCount" : 12,
+    "objectPropertyCount" : 11,
+    "datatypePropertyCount" : 33,
+    "individualCount" : 0
+  },
+  "class" : [ {
+    "id" : "9",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "10",
+    "type" : "owl:Class"
+  }, {
+    "id" : "14",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "2",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "17",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "16",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "18",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "8",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "19",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "20",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "21",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "22",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "34",
+    "type" : "owl:Class"
+  }, {
+    "id" : "36",
+    "type" : "owl:Class"
+  }, {
+    "id" : "38",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "41",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "42",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "43",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "44",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "47",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "48",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "49",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "50",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "51",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "24",
+    "type" : "owl:Class"
+  }, {
+    "id" : "37",
+    "type" : "owl:Class"
+  }, {
+    "id" : "1",
+    "type" : "owl:Class"
+  }, {
+    "id" : "68",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "27",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "71",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "72",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "55",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "63",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "7",
+    "type" : "owl:Class"
+  }, {
+    "id" : "46",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "87",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "31",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "75",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "40",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "58",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "35",
+    "type" : "owl:Class"
+  }, {
+    "id" : "4",
+    "type" : "owl:Class"
+  }, {
+    "id" : "12",
+    "type" : "owl:Class"
+  }, {
+    "id" : "60",
+    "type" : "owl:Class"
+  }, {
+    "id" : "13",
+    "type" : "owl:Class"
+  } ],
+  "classAttribute" : [ {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "9",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://xmlns.com/foaf/0.1/Agent",
+    "baseIri" : "http://xmlns.com/foaf/0.1",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Agent"
+    },
+    "attributes" : [ "external" ],
+    "id" : "10"
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "14",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "2",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "17",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "16",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "18",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "8",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "19",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "20",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "21",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "22",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.cenpat-conicet.gob.ar/ontology/Region",
+    "baseIri" : "http://www.cenpat-conicet.gob.ar/ontology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Region"
+    },
+    "id" : "34",
+    "superClasses" : [ "35", "36", "37" ]
+  }, {
+    "iri" : "http://purl.obolibrary.org/obo/ENVO_00002297",
+    "baseIri" : "http://purl.obolibrary.org/obo",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "ENVO_00002297"
+    },
+    "subClasses" : [ "34" ],
+    "comment" : {
+      "undefined" : "enviromental feature"
+    },
+    "attributes" : [ "external" ],
+    "id" : "36"
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#int",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "38",
+    "label" : {
+      "IRI-based" : "int"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "41",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#int",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "42",
+    "label" : {
+      "IRI-based" : "int"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#int",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "43",
+    "label" : {
+      "IRI-based" : "int"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "44",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "47",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "48",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#decimal",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "49",
+    "label" : {
+      "IRI-based" : "decimal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "50",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#dateTime",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "51",
+    "label" : {
+      "IRI-based" : "dateTime"
+    }
+  }, {
+    "iri" : "http://rdfs.org/ns/void#Dataset",
+    "baseIri" : "http://rdfs.org/ns/void",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Dataset"
+    },
+    "attributes" : [ "external" ],
+    "id" : "24"
+  }, {
+    "iri" : "http://purl.obolibrary.org/obo/ENVO_00000428",
+    "baseIri" : "http://purl.obolibrary.org/obo",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "ENVO_00000428"
+    },
+    "subClasses" : [ "34" ],
+    "comment" : {
+      "undefined" : "Biome"
+    },
+    "attributes" : [ "external" ],
+    "id" : "37"
+  }, {
+    "iri" : "http://purl.org/dc/terms/Location",
+    "baseIri" : "http://purl.org/dc/terms",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Location"
+    },
+    "attributes" : [ "external" ],
+    "id" : "1"
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "id" : "68",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "id" : "27",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "71",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "72",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#decimal",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "55",
+    "label" : {
+      "IRI-based" : "decimal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#decimal",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "63",
+    "label" : {
+      "IRI-based" : "decimal"
+    }
+  }, {
+    "iri" : "http://rs.tdwg.org/dwc/terms/Taxon",
+    "baseIri" : "http://rs.tdwg.org/dwc/terms",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Taxon"
+    },
+    "attributes" : [ "external" ],
+    "id" : "7"
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "46",
+    "label" : {
+      "IRI-based" : "anyURI"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "87",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "31",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "75",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "40",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#decimal",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "58",
+    "label" : {
+      "IRI-based" : "decimal"
+    }
+  }, {
+    "iri" : "http://purl.obolibrary.org/obo/ENVO_00010483",
+    "baseIri" : "http://purl.obolibrary.org/obo",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "ENVO_00010483"
+    },
+    "subClasses" : [ "34" ],
+    "comment" : {
+      "undefined" : "enviromental material"
+    },
+    "attributes" : [ "external" ],
+    "id" : "35"
+  }, {
+    "iri" : "http://rs.tdwg.org/dwc/terms/Event",
+    "baseIri" : "http://rs.tdwg.org/dwc/terms",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Event"
+    },
+    "subClasses" : [ "13" ],
+    "attributes" : [ "external" ],
+    "id" : "4"
+  }, {
+    "iri" : "http://rs.tdwg.org/dwc/terms/Occurrence",
+    "baseIri" : "http://rs.tdwg.org/dwc/terms",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Occurrence"
+    },
+    "attributes" : [ "external" ],
+    "id" : "12"
+  }, {
+    "iri" : "http://www.w3.org/2006/time#TemporalEntity",
+    "baseIri" : "http://www.w3.org/2006/time",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "TemporalEntity"
+    },
+    "subClasses" : [ "13" ],
+    "attributes" : [ "external" ],
+    "id" : "60"
+  }, {
+    "iri" : "http://www.cenpat-conicet.gob.ar/ontology/BioEvent",
+    "baseIri" : "http://www.cenpat-conicet.gob.ar/ontology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "BioEvent"
+    },
+    "id" : "13",
+    "superClasses" : [ "4", "60" ]
+  } ],
+  "property" : [ {
+    "id" : "0",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "3",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "6",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "11",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "15",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "23",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "25",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "26",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "28",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "29",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "30",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "32",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "33",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "39",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "45",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "52",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "53",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "54",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "56",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "57",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "59",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "61",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "62",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "64",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "65",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "66",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "67",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "69",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "70",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "73",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "74",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "76",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "5",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "77",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "78",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "79",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "80",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "81",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "82",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "83",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "84",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "85",
+    "type" : "owl:someValuesFrom"
+  }, {
+    "id" : "86",
+    "type" : "owl:someValuesFrom"
+  }, {
+    "id" : "88",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "89",
+    "type" : "owl:someValuesFrom"
+  }, {
+    "id" : "90",
+    "type" : "owl:someValuesFrom"
+  }, {
+    "id" : "91",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "92",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "93",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "94",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "95",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "96",
+    "type" : "owl:datatypeProperty"
+  } ],
+  "propertyAttribute" : [ {
+    "iri" : "http://rs.tdwg.org/dwc/terms/verbatimCoordinates",
+    "baseIri" : "http://rs.tdwg.org/dwc/terms",
+    "range" : "2",
+    "label" : {
+      "IRI-based" : "verbatimCoordinates"
+    },
+    "domain" : "1",
+    "attributes" : [ "datatype", "external" ],
+    "id" : "0"
+  }, {
+    "iri" : "http://www.cenpat-conicet.gob.ar/ontology/has_location",
+    "inverse" : "5",
+    "baseIri" : "http://www.cenpat-conicet.gob.ar/ontology",
+    "range" : "1",
+    "label" : {
+      "IRI-based" : "has_location"
+    },
+    "domain" : "4",
+    "attributes" : [ "object" ],
+    "id" : "3"
+  }, {
+    "iri" : "http://rs.tdwg.org/dwc/terms/specificEpithet",
+    "baseIri" : "http://rs.tdwg.org/dwc/terms",
+    "range" : "8",
+    "label" : {
+      "IRI-based" : "specificEpithet"
+    },
+    "domain" : "7",
+    "attributes" : [ "datatype", "external" ],
+    "id" : "6"
+  }, {
+    "iri" : "http://www.cenpat-conicet.gob.ar/ontology/has_event",
+    "baseIri" : "http://www.cenpat-conicet.gob.ar/ontology",
+    "range" : "13",
+    "label" : {
+      "IRI-based" : "has_event"
+    },
+    "domain" : "12",
+    "attributes" : [ "object" ],
+    "id" : "11"
+  }, {
+    "iri" : "http://rs.tdwg.org/dwc/terms/scientificNameAuthorship",
+    "baseIri" : "http://rs.tdwg.org/dwc/terms",
+    "range" : "16",
+    "label" : {
+      "IRI-based" : "scientificNameAuthorship"
+    },
+    "domain" : "7",
+    "attributes" : [ "datatype", "external" ],
+    "id" : "15"
+  }, {
+    "iri" : "http://www.cenpat-conicet.gob.ar/ontology/has_part",
+    "baseIri" : "http://www.cenpat-conicet.gob.ar/ontology",
+    "range" : "12",
+    "label" : {
+      "IRI-based" : "has_part"
+    },
+    "domain" : "24",
+    "attributes" : [ "object" ],
+    "id" : "23"
+  }, {
+    "iri" : "http://www.cenpat-conicet.gob.ar/ontology/taxon_of",
+    "baseIri" : "http://www.cenpat-conicet.gob.ar/ontology",
+    "range" : "12",
+    "label" : {
+      "IRI-based" : "taxon_of"
+    },
+    "domain" : "7",
+    "attributes" : [ "object" ],
+    "id" : "25"
+  }, {
+    "iri" : "http://rs.tdwg.org/dwc/terms/collectionCode",
+    "baseIri" : "http://rs.tdwg.org/dwc/terms",
+    "range" : "27",
+    "label" : {
+      "IRI-based" : "collectionCode"
+    },
+    "domain" : "12",
+    "attributes" : [ "datatype", "external" ],
+    "id" : "26"
+  }, {
+    "iri" : "http://www.cenpat-conicet.gob.ar/ontology/event_of",
+    "inverse" : "11",
+    "baseIri" : "http://www.cenpat-conicet.gob.ar/ontology",
+    "range" : "12",
+    "label" : {
+      "IRI-based" : "event_of"
+    },
+    "domain" : "13",
+    "attributes" : [ "object" ],
+    "id" : "28"
+  }, {
+    "iri" : "http://rs.tdwg.org/dwc/terms/occurrenceID",
+    "baseIri" : "http://rs.tdwg.org/dwc/terms",
+    "range" : "20",
+    "label" : {
+      "IRI-based" : "occurrenceID"
+    },
+    "domain" : "12",
+    "attributes" : [ "datatype", "external" ],
+    "id" : "29"
+  }, {
+    "iri" : "http://rs.tdwg.org/dwc/terms/catalogNumber",
+    "baseIri" : "http://rs.tdwg.org/dwc/terms",
+    "range" : "31",
+    "label" : {
+      "IRI-based" : "catalogNumber"
+    },
+    "domain" : "12",
+    "attributes" : [ "datatype", "external" ],
+    "id" : "30"
+  }, {
+    "iri" : "http://rs.tdwg.org/dwc/terms/scientificName",
+    "baseIri" : "http://rs.tdwg.org/dwc/terms",
+    "range" : "21",
+    "label" : {
+      "IRI-based" : "scientificName"
+    },
+    "domain" : "7",
+    "attributes" : [ "datatype", "external" ],
+    "id" : "32"
+  }, {
+    "iri" : "http://www.cenpat-conicet.gob.ar/ontology/is_part_of",
+    "baseIri" : "http://www.cenpat-conicet.gob.ar/ontology",
+    "range" : "24",
+    "label" : {
+      "IRI-based" : "is_part_of"
+    },
+    "domain" : "12",
+    "attributes" : [ "object" ],
+    "id" : "33"
+  }, {
+    "iri" : "http://rs.tdwg.org/dwc/terms/country",
+    "baseIri" : "http://rs.tdwg.org/dwc/terms",
+    "range" : "40",
+    "label" : {
+      "IRI-based" : "country"
+    },
+    "domain" : "1",
+    "attributes" : [ "datatype", "external" ],
+    "id" : "39"
+  }, {
+    "iri" : "http://purl.org/dc/terms/source",
+    "baseIri" : "http://purl.org/dc/terms",
+    "range" : "46",
+    "label" : {
+      "IRI-based" : "source"
+    },
+    "domain" : "24",
+    "attributes" : [ "datatype", "external" ],
+    "id" : "45"
+  }, {
+    "iri" : "http://rs.tdwg.org/dwc/terms/genus",
+    "baseIri" : "http://rs.tdwg.org/dwc/terms",
+    "range" : "44",
+    "label" : {
+      "IRI-based" : "genus"
+    },
+    "domain" : "7",
+    "attributes" : [ "datatype", "external" ],
+    "id" : "52"
+  }, {
+    "iri" : "http://www.cenpat-conicet.gob.ar/ontology/recorded_by",
+    "baseIri" : "http://www.cenpat-conicet.gob.ar/ontology",
+    "range" : "10",
+    "label" : {
+      "IRI-based" : "recorded_by"
+    },
+    "domain" : "12",
+    "attributes" : [ "object" ],
+    "id" : "53"
+  }, {
+    "iri" : "http://www.w3.org/2003/01/geo/wgs84_pos#long",
+    "baseIri" : "http://www.w3.org/2003/01/geo/wgs84_pos",
+    "range" : "55",
+    "label" : {
+      "IRI-based" : "long"
+    },
+    "domain" : "1",
+    "attributes" : [ "datatype", "external" ],
+    "id" : "54"
+  }, {
+    "iri" : "http://rs.tdwg.org/dwc/terms/locality",
+    "baseIri" : "http://rs.tdwg.org/dwc/terms",
+    "range" : "47",
+    "label" : {
+      "IRI-based" : "locality"
+    },
+    "domain" : "1",
+    "attributes" : [ "datatype", "external" ],
+    "id" : "56"
+  }, {
+    "iri" : "http://rs.tdwg.org/dwc/terms/decimalLatitude",
+    "baseIri" : "http://rs.tdwg.org/dwc/terms",
+    "range" : "58",
+    "label" : {
+      "IRI-based" : "decimalLatitude"
+    },
+    "domain" : "1",
+    "attributes" : [ "datatype", "external" ],
+    "id" : "57"
+  }, {
+    "range" : "60",
+    "domain" : "13",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "59"
+  }, {
+    "range" : "4",
+    "domain" : "13",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "61"
+  }, {
+    "iri" : "http://www.w3.org/2003/01/geo/wgs84_pos#lat",
+    "baseIri" : "http://www.w3.org/2003/01/geo/wgs84_pos",
+    "range" : "63",
+    "label" : {
+      "IRI-based" : "lat"
+    },
+    "domain" : "1",
+    "attributes" : [ "datatype", "external" ],
+    "id" : "62"
+  }, {
+    "iri" : "http://rs.tdwg.org/dwc/terms/kingdom",
+    "baseIri" : "http://rs.tdwg.org/dwc/terms",
+    "range" : "48",
+    "label" : {
+      "IRI-based" : "kingdom"
+    },
+    "domain" : "7",
+    "attributes" : [ "datatype", "external" ],
+    "id" : "64"
+  }, {
+    "iri" : "http://rs.tdwg.org/dwc/terms/individualCount",
+    "baseIri" : "http://rs.tdwg.org/dwc/terms",
+    "range" : "43",
+    "label" : {
+      "IRI-based" : "individualCount"
+    },
+    "domain" : "12",
+    "attributes" : [ "datatype", "external" ],
+    "id" : "65"
+  }, {
+    "iri" : "http://rs.tdwg.org/dwc/terms/maximumDepthInMeters",
+    "baseIri" : "http://rs.tdwg.org/dwc/terms",
+    "range" : "38",
+    "label" : {
+      "IRI-based" : "maximumDepthInMeters"
+    },
+    "domain" : "1",
+    "attributes" : [ "datatype", "external" ],
+    "id" : "66"
+  }, {
+    "range" : "35",
+    "domain" : "34",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "67"
+  }, {
+    "range" : "37",
+    "domain" : "34",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "69"
+  }, {
+    "range" : "36",
+    "domain" : "34",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "70"
+  }, {
+    "iri" : "http://www.cenpat-conicet.gob.ar/ontology/into_eez",
+    "baseIri" : "http://www.cenpat-conicet.gob.ar/ontology",
+    "range" : "34",
+    "label" : {
+      "IRI-based" : "into_eez"
+    },
+    "domain" : "1",
+    "comment" : {
+      "undefined" : "eez: exclusive economic zone."
+    },
+    "attributes" : [ "object" ],
+    "id" : "73"
+  }, {
+    "iri" : "http://rs.tdwg.org/dwc/terms/class",
+    "baseIri" : "http://rs.tdwg.org/dwc/terms",
+    "range" : "75",
+    "label" : {
+      "IRI-based" : "class"
+    },
+    "domain" : "7",
+    "attributes" : [ "datatype", "external" ],
+    "id" : "74"
+  }, {
+    "iri" : "http://rs.tdwg.org/dwc/terms/phylum",
+    "baseIri" : "http://rs.tdwg.org/dwc/terms",
+    "range" : "22",
+    "label" : {
+      "IRI-based" : "phylum"
+    },
+    "domain" : "7",
+    "attributes" : [ "datatype", "external" ],
+    "id" : "76"
+  }, {
+    "iri" : "http://www.cenpat-conicet.gob.ar/ontology/location_of",
+    "baseIri" : "http://www.cenpat-conicet.gob.ar/ontology",
+    "range" : "4",
+    "label" : {
+      "IRI-based" : "location_of"
+    },
+    "domain" : "1",
+    "attributes" : [ "object" ],
+    "id" : "5"
+  }, {
+    "iri" : "http://rs.tdwg.org/dwc/terms/family",
+    "baseIri" : "http://rs.tdwg.org/dwc/terms",
+    "range" : "50",
+    "label" : {
+      "IRI-based" : "family"
+    },
+    "domain" : "7",
+    "attributes" : [ "datatype", "external" ],
+    "id" : "77"
+  }, {
+    "iri" : "http://rs.tdwg.org/dwc/terms/verbatimLatitude",
+    "baseIri" : "http://rs.tdwg.org/dwc/terms",
+    "range" : "9",
+    "label" : {
+      "IRI-based" : "verbatimLatitude"
+    },
+    "domain" : "1",
+    "attributes" : [ "datatype", "external" ],
+    "id" : "78"
+  }, {
+    "iri" : "http://rs.tdwg.org/dwc/terms/occurrenceRemarks",
+    "baseIri" : "http://rs.tdwg.org/dwc/terms",
+    "range" : "19",
+    "label" : {
+      "IRI-based" : "occurrenceRemarks"
+    },
+    "domain" : "12",
+    "attributes" : [ "datatype", "external" ],
+    "id" : "79"
+  }, {
+    "iri" : "http://rs.tdwg.org/dwc/terms/verbatimEventDate",
+    "baseIri" : "http://rs.tdwg.org/dwc/terms",
+    "range" : "14",
+    "label" : {
+      "IRI-based" : "verbatimEventDate"
+    },
+    "domain" : "1",
+    "attributes" : [ "datatype", "external" ],
+    "id" : "80"
+  }, {
+    "iri" : "http://www.cenpat-conicet.gob.ar/ontology/has_taxon",
+    "inverse" : "25",
+    "baseIri" : "http://www.cenpat-conicet.gob.ar/ontology",
+    "range" : "7",
+    "label" : {
+      "IRI-based" : "has_taxon"
+    },
+    "domain" : "12",
+    "attributes" : [ "object" ],
+    "id" : "81"
+  }, {
+    "iri" : "http://rs.tdwg.org/dwc/terms/stateProvince",
+    "baseIri" : "http://rs.tdwg.org/dwc/terms",
+    "range" : "18",
+    "label" : {
+      "IRI-based" : "stateProvince"
+    },
+    "domain" : "1",
+    "attributes" : [ "datatype", "external" ],
+    "id" : "82"
+  }, {
+    "iri" : "http://rs.tdwg.org/dwc/terms/order",
+    "baseIri" : "http://rs.tdwg.org/dwc/terms",
+    "range" : "68",
+    "label" : {
+      "IRI-based" : "order"
+    },
+    "domain" : "7",
+    "attributes" : [ "datatype", "external" ],
+    "id" : "83"
+  }, {
+    "iri" : "http://rs.tdwg.org/dwc/terms/eventDate",
+    "baseIri" : "http://rs.tdwg.org/dwc/terms",
+    "range" : "51",
+    "label" : {
+      "IRI-based" : "eventDate"
+    },
+    "domain" : "13",
+    "attributes" : [ "datatype", "external" ],
+    "id" : "84"
+  }, {
+    "iri" : "http://www.cenpat-conicet.gob.ar/ontology/event_of",
+    "inverse" : "11",
+    "baseIri" : "http://www.cenpat-conicet.gob.ar/ontology",
+    "range" : "12",
+    "label" : {
+      "IRI-based" : "event_of"
+    },
+    "domain" : "13",
+    "attributes" : [ "someValues", "object" ],
+    "id" : "85"
+  }, {
+    "iri" : "http://www.cenpat-conicet.gob.ar/ontology/has_in",
+    "baseIri" : "http://www.cenpat-conicet.gob.ar/ontology",
+    "range" : "1",
+    "label" : {
+      "IRI-based" : "has_in"
+    },
+    "domain" : "34",
+    "attributes" : [ "someValues", "object" ],
+    "id" : "86"
+  }, {
+    "iri" : "http://rs.tdwg.org/dwc/terms/waterBody",
+    "baseIri" : "http://rs.tdwg.org/dwc/terms",
+    "range" : "71",
+    "label" : {
+      "IRI-based" : "waterBody"
+    },
+    "domain" : "1",
+    "attributes" : [ "datatype", "external" ],
+    "id" : "88"
+  }, {
+    "iri" : "http://www.cenpat-conicet.gob.ar/ontology/location_of",
+    "baseIri" : "http://www.cenpat-conicet.gob.ar/ontology",
+    "range" : "13",
+    "label" : {
+      "IRI-based" : "location_of"
+    },
+    "domain" : "1",
+    "attributes" : [ "someValues", "object" ],
+    "id" : "89"
+  }, {
+    "iri" : "http://www.cenpat-conicet.gob.ar/ontology/has_part",
+    "baseIri" : "http://www.cenpat-conicet.gob.ar/ontology",
+    "range" : "12",
+    "label" : {
+      "IRI-based" : "has_part"
+    },
+    "domain" : "24",
+    "attributes" : [ "someValues", "object" ],
+    "id" : "90"
+  }, {
+    "iri" : "http://rs.tdwg.org/dwc/terms/basisOfRecord",
+    "baseIri" : "http://rs.tdwg.org/dwc/terms",
+    "range" : "87",
+    "label" : {
+      "IRI-based" : "basisOfRecord"
+    },
+    "domain" : "12",
+    "attributes" : [ "datatype", "external" ],
+    "id" : "91"
+  }, {
+    "iri" : "http://rs.tdwg.org/dwc/terms/minimumDepthInMeters",
+    "baseIri" : "http://rs.tdwg.org/dwc/terms",
+    "range" : "42",
+    "label" : {
+      "IRI-based" : "minimumDepthInMeters"
+    },
+    "domain" : "1",
+    "attributes" : [ "datatype", "external" ],
+    "id" : "92"
+  }, {
+    "iri" : "http://rs.tdwg.org/dwc/terms/locationID",
+    "baseIri" : "http://rs.tdwg.org/dwc/terms",
+    "range" : "41",
+    "label" : {
+      "IRI-based" : "locationID"
+    },
+    "domain" : "1",
+    "attributes" : [ "datatype", "external" ],
+    "id" : "93"
+  }, {
+    "iri" : "http://rs.tdwg.org/dwc/terms/decimalLongitude",
+    "baseIri" : "http://rs.tdwg.org/dwc/terms",
+    "range" : "49",
+    "label" : {
+      "IRI-based" : "decimalLongitude"
+    },
+    "domain" : "1",
+    "attributes" : [ "datatype", "external" ],
+    "id" : "94"
+  }, {
+    "iri" : "http://rs.tdwg.org/dwc/terms/sex",
+    "baseIri" : "http://rs.tdwg.org/dwc/terms",
+    "range" : "17",
+    "label" : {
+      "IRI-based" : "sex"
+    },
+    "domain" : "12",
+    "attributes" : [ "datatype", "external" ],
+    "id" : "95"
+  }, {
+    "iri" : "http://rs.tdwg.org/dwc/terms/verbatimLongitude",
+    "baseIri" : "http://rs.tdwg.org/dwc/terms",
+    "range" : "72",
+    "label" : {
+      "IRI-based" : "verbatimLongitude"
+    },
+    "domain" : "1",
+    "attributes" : [ "datatype", "external" ],
+    "id" : "96"
+  } ]
+}

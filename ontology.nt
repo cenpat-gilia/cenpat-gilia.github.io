@@ -1,0 +1,362 @@
+<http://www.cenpat-conicet.gob.ar/ontology/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
+# 
+# 
+# #################################################################
+# #
+# #    Annotation properties
+# #
+# #################################################################
+# 
+# 
+# http://rs.tdwg.org/dwc/terms/georeferenceRemarks
+<http://rs.tdwg.org/dwc/terms/georeferenceRemarks> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://wikidata.org/prop/direct/p21
+<http://wikidata.org/prop/direct/p21> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://xmlns.com/foaf/0.1/name
+<http://xmlns.com/foaf/0.1/name> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Object Properties
+# #
+# #################################################################
+# 
+# 
+# http://www.cenpat-conicet.gob.ar/ontology/event_of
+<http://www.cenpat-conicet.gob.ar/ontology/event_of> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.cenpat-conicet.gob.ar/ontology/event_of> <http://www.w3.org/2002/07/owl#inverseOf> <http://www.cenpat-conicet.gob.ar/ontology/has_event> .
+<http://www.cenpat-conicet.gob.ar/ontology/event_of> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.cenpat-conicet.gob.ar/ontology/BioEvent> .
+<http://www.cenpat-conicet.gob.ar/ontology/event_of> <http://www.w3.org/2000/01/rdf-schema#range> <http://rs.tdwg.org/dwc/terms/Occurrence> .
+# 
+# http://www.cenpat-conicet.gob.ar/ontology/has_event
+<http://www.cenpat-conicet.gob.ar/ontology/has_event> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.cenpat-conicet.gob.ar/ontology/has_event> <http://www.w3.org/2000/01/rdf-schema#domain> <http://rs.tdwg.org/dwc/terms/Occurrence> .
+<http://www.cenpat-conicet.gob.ar/ontology/has_event> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.cenpat-conicet.gob.ar/ontology/BioEvent> .
+# 
+# http://www.cenpat-conicet.gob.ar/ontology/has_in
+<http://www.cenpat-conicet.gob.ar/ontology/has_in> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+# 
+# http://www.cenpat-conicet.gob.ar/ontology/has_location
+<http://www.cenpat-conicet.gob.ar/ontology/has_location> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.cenpat-conicet.gob.ar/ontology/has_location> <http://www.w3.org/2002/07/owl#inverseOf> <http://www.cenpat-conicet.gob.ar/ontology/location_of> .
+<http://www.cenpat-conicet.gob.ar/ontology/has_location> <http://www.w3.org/2000/01/rdf-schema#domain> <http://rs.tdwg.org/dwc/terms/Event> .
+<http://www.cenpat-conicet.gob.ar/ontology/has_location> <http://www.w3.org/2000/01/rdf-schema#range> <http://purl.org/dc/terms/Location> .
+# 
+# http://www.cenpat-conicet.gob.ar/ontology/has_part
+<http://www.cenpat-conicet.gob.ar/ontology/has_part> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.cenpat-conicet.gob.ar/ontology/has_part> <http://www.w3.org/2000/01/rdf-schema#domain> <http://rdfs.org/ns/void#Dataset> .
+<http://www.cenpat-conicet.gob.ar/ontology/has_part> <http://www.w3.org/2000/01/rdf-schema#range> <http://rs.tdwg.org/dwc/terms/Occurrence> .
+# 
+# http://www.cenpat-conicet.gob.ar/ontology/has_taxon
+<http://www.cenpat-conicet.gob.ar/ontology/has_taxon> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.cenpat-conicet.gob.ar/ontology/has_taxon> <http://www.w3.org/2002/07/owl#inverseOf> <http://www.cenpat-conicet.gob.ar/ontology/taxon_of> .
+<http://www.cenpat-conicet.gob.ar/ontology/has_taxon> <http://www.w3.org/2000/01/rdf-schema#domain> <http://rs.tdwg.org/dwc/terms/Occurrence> .
+<http://www.cenpat-conicet.gob.ar/ontology/has_taxon> <http://www.w3.org/2000/01/rdf-schema#range> <http://rs.tdwg.org/dwc/terms/Taxon> .
+# 
+# http://www.cenpat-conicet.gob.ar/ontology/into_eez
+<http://www.cenpat-conicet.gob.ar/ontology/into_eez> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.cenpat-conicet.gob.ar/ontology/into_eez> <http://www.w3.org/2000/01/rdf-schema#domain> <http://purl.org/dc/terms/Location> .
+<http://www.cenpat-conicet.gob.ar/ontology/into_eez> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.cenpat-conicet.gob.ar/ontology/Region> .
+<http://www.cenpat-conicet.gob.ar/ontology/into_eez> <http://www.w3.org/2000/01/rdf-schema#comment> "eez: exclusive economic zone." .
+# 
+# http://www.cenpat-conicet.gob.ar/ontology/is_part_of
+<http://www.cenpat-conicet.gob.ar/ontology/is_part_of> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.cenpat-conicet.gob.ar/ontology/is_part_of> <http://www.w3.org/2000/01/rdf-schema#domain> <http://rs.tdwg.org/dwc/terms/Occurrence> .
+<http://www.cenpat-conicet.gob.ar/ontology/is_part_of> <http://www.w3.org/2000/01/rdf-schema#range> <http://rdfs.org/ns/void#Dataset> .
+# 
+# http://www.cenpat-conicet.gob.ar/ontology/location_of
+<http://www.cenpat-conicet.gob.ar/ontology/location_of> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.cenpat-conicet.gob.ar/ontology/location_of> <http://www.w3.org/2000/01/rdf-schema#domain> <http://purl.org/dc/terms/Location> .
+<http://www.cenpat-conicet.gob.ar/ontology/location_of> <http://www.w3.org/2000/01/rdf-schema#range> <http://rs.tdwg.org/dwc/terms/Event> .
+# 
+# http://www.cenpat-conicet.gob.ar/ontology/recorded_by
+<http://www.cenpat-conicet.gob.ar/ontology/recorded_by> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.cenpat-conicet.gob.ar/ontology/recorded_by> <http://www.w3.org/2000/01/rdf-schema#domain> <http://rs.tdwg.org/dwc/terms/Occurrence> .
+<http://www.cenpat-conicet.gob.ar/ontology/recorded_by> <http://www.w3.org/2000/01/rdf-schema#range> <http://xmlns.com/foaf/0.1/Agent> .
+# 
+# http://www.cenpat-conicet.gob.ar/ontology/taxon_of
+<http://www.cenpat-conicet.gob.ar/ontology/taxon_of> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.cenpat-conicet.gob.ar/ontology/taxon_of> <http://www.w3.org/2000/01/rdf-schema#domain> <http://rs.tdwg.org/dwc/terms/Taxon> .
+<http://www.cenpat-conicet.gob.ar/ontology/taxon_of> <http://www.w3.org/2000/01/rdf-schema#range> <http://rs.tdwg.org/dwc/terms/Occurrence> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Data properties
+# #
+# #################################################################
+# 
+# 
+# http://purl.org/dc/terms/source
+<http://purl.org/dc/terms/source> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://purl.org/dc/terms/source> <http://www.w3.org/2000/01/rdf-schema#domain> <http://rdfs.org/ns/void#Dataset> .
+<http://purl.org/dc/terms/source> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#anyURI> .
+# 
+# http://rs.tdwg.org/dwc/terms/basisOfRecord
+<http://rs.tdwg.org/dwc/terms/basisOfRecord> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://rs.tdwg.org/dwc/terms/basisOfRecord> <http://www.w3.org/2000/01/rdf-schema#domain> <http://rs.tdwg.org/dwc/terms/Occurrence> .
+<http://rs.tdwg.org/dwc/terms/basisOfRecord> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+# 
+# http://rs.tdwg.org/dwc/terms/catalogNumber
+<http://rs.tdwg.org/dwc/terms/catalogNumber> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://rs.tdwg.org/dwc/terms/catalogNumber> <http://www.w3.org/2000/01/rdf-schema#domain> <http://rs.tdwg.org/dwc/terms/Occurrence> .
+<http://rs.tdwg.org/dwc/terms/catalogNumber> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+# 
+# http://rs.tdwg.org/dwc/terms/class
+<http://rs.tdwg.org/dwc/terms/class> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://rs.tdwg.org/dwc/terms/class> <http://www.w3.org/2000/01/rdf-schema#domain> <http://rs.tdwg.org/dwc/terms/Taxon> .
+<http://rs.tdwg.org/dwc/terms/class> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+# 
+# http://rs.tdwg.org/dwc/terms/collectionCode
+<http://rs.tdwg.org/dwc/terms/collectionCode> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://rs.tdwg.org/dwc/terms/collectionCode> <http://www.w3.org/2000/01/rdf-schema#domain> <http://rs.tdwg.org/dwc/terms/Occurrence> .
+# 
+# http://rs.tdwg.org/dwc/terms/country
+<http://rs.tdwg.org/dwc/terms/country> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://rs.tdwg.org/dwc/terms/country> <http://www.w3.org/2000/01/rdf-schema#domain> <http://purl.org/dc/terms/Location> .
+<http://rs.tdwg.org/dwc/terms/country> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+# 
+# http://rs.tdwg.org/dwc/terms/decimalLatitude
+<http://rs.tdwg.org/dwc/terms/decimalLatitude> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://rs.tdwg.org/dwc/terms/decimalLatitude> <http://www.w3.org/2000/01/rdf-schema#domain> <http://purl.org/dc/terms/Location> .
+<http://rs.tdwg.org/dwc/terms/decimalLatitude> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#decimal> .
+# 
+# http://rs.tdwg.org/dwc/terms/decimalLongitude
+<http://rs.tdwg.org/dwc/terms/decimalLongitude> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://rs.tdwg.org/dwc/terms/decimalLongitude> <http://www.w3.org/2000/01/rdf-schema#domain> <http://purl.org/dc/terms/Location> .
+<http://rs.tdwg.org/dwc/terms/decimalLongitude> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#decimal> .
+# 
+# http://rs.tdwg.org/dwc/terms/eventDate
+<http://rs.tdwg.org/dwc/terms/eventDate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://rs.tdwg.org/dwc/terms/eventDate> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.cenpat-conicet.gob.ar/ontology/BioEvent> .
+<http://rs.tdwg.org/dwc/terms/eventDate> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#dateTime> .
+# 
+# http://rs.tdwg.org/dwc/terms/family
+<http://rs.tdwg.org/dwc/terms/family> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://rs.tdwg.org/dwc/terms/family> <http://www.w3.org/2000/01/rdf-schema#domain> <http://rs.tdwg.org/dwc/terms/Taxon> .
+<http://rs.tdwg.org/dwc/terms/family> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+# 
+# http://rs.tdwg.org/dwc/terms/genus
+<http://rs.tdwg.org/dwc/terms/genus> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://rs.tdwg.org/dwc/terms/genus> <http://www.w3.org/2000/01/rdf-schema#domain> <http://rs.tdwg.org/dwc/terms/Taxon> .
+<http://rs.tdwg.org/dwc/terms/genus> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+# 
+# http://rs.tdwg.org/dwc/terms/individualCount
+<http://rs.tdwg.org/dwc/terms/individualCount> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://rs.tdwg.org/dwc/terms/individualCount> <http://www.w3.org/2000/01/rdf-schema#domain> <http://rs.tdwg.org/dwc/terms/Occurrence> .
+<http://rs.tdwg.org/dwc/terms/individualCount> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#int> .
+# 
+# http://rs.tdwg.org/dwc/terms/kingdom
+<http://rs.tdwg.org/dwc/terms/kingdom> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://rs.tdwg.org/dwc/terms/kingdom> <http://www.w3.org/2000/01/rdf-schema#domain> <http://rs.tdwg.org/dwc/terms/Taxon> .
+<http://rs.tdwg.org/dwc/terms/kingdom> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+# 
+# http://rs.tdwg.org/dwc/terms/locality
+<http://rs.tdwg.org/dwc/terms/locality> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://rs.tdwg.org/dwc/terms/locality> <http://www.w3.org/2000/01/rdf-schema#domain> <http://purl.org/dc/terms/Location> .
+<http://rs.tdwg.org/dwc/terms/locality> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+# 
+# http://rs.tdwg.org/dwc/terms/locationID
+<http://rs.tdwg.org/dwc/terms/locationID> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://rs.tdwg.org/dwc/terms/locationID> <http://www.w3.org/2000/01/rdf-schema#domain> <http://purl.org/dc/terms/Location> .
+<http://rs.tdwg.org/dwc/terms/locationID> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+# 
+# http://rs.tdwg.org/dwc/terms/maximumDepthInMeters
+<http://rs.tdwg.org/dwc/terms/maximumDepthInMeters> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://rs.tdwg.org/dwc/terms/maximumDepthInMeters> <http://www.w3.org/2000/01/rdf-schema#domain> <http://purl.org/dc/terms/Location> .
+<http://rs.tdwg.org/dwc/terms/maximumDepthInMeters> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#int> .
+# 
+# http://rs.tdwg.org/dwc/terms/minimumDepthInMeters
+<http://rs.tdwg.org/dwc/terms/minimumDepthInMeters> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://rs.tdwg.org/dwc/terms/minimumDepthInMeters> <http://www.w3.org/2000/01/rdf-schema#domain> <http://purl.org/dc/terms/Location> .
+<http://rs.tdwg.org/dwc/terms/minimumDepthInMeters> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#int> .
+# 
+# http://rs.tdwg.org/dwc/terms/occurrenceID
+<http://rs.tdwg.org/dwc/terms/occurrenceID> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://rs.tdwg.org/dwc/terms/occurrenceID> <http://www.w3.org/2000/01/rdf-schema#domain> <http://rs.tdwg.org/dwc/terms/Occurrence> .
+<http://rs.tdwg.org/dwc/terms/occurrenceID> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+# 
+# http://rs.tdwg.org/dwc/terms/occurrenceRemarks
+<http://rs.tdwg.org/dwc/terms/occurrenceRemarks> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://rs.tdwg.org/dwc/terms/occurrenceRemarks> <http://www.w3.org/2000/01/rdf-schema#domain> <http://rs.tdwg.org/dwc/terms/Occurrence> .
+<http://rs.tdwg.org/dwc/terms/occurrenceRemarks> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+# 
+# http://rs.tdwg.org/dwc/terms/order
+<http://rs.tdwg.org/dwc/terms/order> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://rs.tdwg.org/dwc/terms/order> <http://www.w3.org/2000/01/rdf-schema#domain> <http://rs.tdwg.org/dwc/terms/Taxon> .
+# 
+# http://rs.tdwg.org/dwc/terms/phylum
+<http://rs.tdwg.org/dwc/terms/phylum> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://rs.tdwg.org/dwc/terms/phylum> <http://www.w3.org/2000/01/rdf-schema#domain> <http://rs.tdwg.org/dwc/terms/Taxon> .
+<http://rs.tdwg.org/dwc/terms/phylum> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+# 
+# http://rs.tdwg.org/dwc/terms/scientificName
+<http://rs.tdwg.org/dwc/terms/scientificName> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://rs.tdwg.org/dwc/terms/scientificName> <http://www.w3.org/2000/01/rdf-schema#domain> <http://rs.tdwg.org/dwc/terms/Taxon> .
+<http://rs.tdwg.org/dwc/terms/scientificName> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+# 
+# http://rs.tdwg.org/dwc/terms/scientificNameAuthorship
+<http://rs.tdwg.org/dwc/terms/scientificNameAuthorship> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://rs.tdwg.org/dwc/terms/scientificNameAuthorship> <http://www.w3.org/2000/01/rdf-schema#domain> <http://rs.tdwg.org/dwc/terms/Taxon> .
+<http://rs.tdwg.org/dwc/terms/scientificNameAuthorship> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+# 
+# http://rs.tdwg.org/dwc/terms/sex
+<http://rs.tdwg.org/dwc/terms/sex> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://rs.tdwg.org/dwc/terms/sex> <http://www.w3.org/2000/01/rdf-schema#domain> <http://rs.tdwg.org/dwc/terms/Occurrence> .
+<http://rs.tdwg.org/dwc/terms/sex> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+# 
+# http://rs.tdwg.org/dwc/terms/specificEpithet
+<http://rs.tdwg.org/dwc/terms/specificEpithet> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://rs.tdwg.org/dwc/terms/specificEpithet> <http://www.w3.org/2000/01/rdf-schema#domain> <http://rs.tdwg.org/dwc/terms/Taxon> .
+<http://rs.tdwg.org/dwc/terms/specificEpithet> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+# 
+# http://rs.tdwg.org/dwc/terms/stateProvince
+<http://rs.tdwg.org/dwc/terms/stateProvince> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://rs.tdwg.org/dwc/terms/stateProvince> <http://www.w3.org/2000/01/rdf-schema#domain> <http://purl.org/dc/terms/Location> .
+<http://rs.tdwg.org/dwc/terms/stateProvince> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+# 
+# http://rs.tdwg.org/dwc/terms/verbatimCoordinates
+<http://rs.tdwg.org/dwc/terms/verbatimCoordinates> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://rs.tdwg.org/dwc/terms/verbatimCoordinates> <http://www.w3.org/2000/01/rdf-schema#domain> <http://purl.org/dc/terms/Location> .
+<http://rs.tdwg.org/dwc/terms/verbatimCoordinates> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+# 
+# http://rs.tdwg.org/dwc/terms/verbatimEventDate
+<http://rs.tdwg.org/dwc/terms/verbatimEventDate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://rs.tdwg.org/dwc/terms/verbatimEventDate> <http://www.w3.org/2000/01/rdf-schema#domain> <http://purl.org/dc/terms/Location> .
+<http://rs.tdwg.org/dwc/terms/verbatimEventDate> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+# 
+# http://rs.tdwg.org/dwc/terms/verbatimLatitude
+<http://rs.tdwg.org/dwc/terms/verbatimLatitude> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://rs.tdwg.org/dwc/terms/verbatimLatitude> <http://www.w3.org/2000/01/rdf-schema#domain> <http://purl.org/dc/terms/Location> .
+<http://rs.tdwg.org/dwc/terms/verbatimLatitude> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+# 
+# http://rs.tdwg.org/dwc/terms/verbatimLongitude
+<http://rs.tdwg.org/dwc/terms/verbatimLongitude> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://rs.tdwg.org/dwc/terms/verbatimLongitude> <http://www.w3.org/2000/01/rdf-schema#domain> <http://purl.org/dc/terms/Location> .
+<http://rs.tdwg.org/dwc/terms/verbatimLongitude> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+# 
+# http://rs.tdwg.org/dwc/terms/waterBody
+<http://rs.tdwg.org/dwc/terms/waterBody> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://rs.tdwg.org/dwc/terms/waterBody> <http://www.w3.org/2000/01/rdf-schema#domain> <http://purl.org/dc/terms/Location> .
+<http://rs.tdwg.org/dwc/terms/waterBody> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+# 
+# http://www.w3.org/2003/01/geo/wgs84_pos#lat
+<http://www.w3.org/2003/01/geo/wgs84_pos#lat> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.w3.org/2003/01/geo/wgs84_pos#lat> <http://www.w3.org/2000/01/rdf-schema#domain> <http://purl.org/dc/terms/Location> .
+<http://www.w3.org/2003/01/geo/wgs84_pos#lat> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#decimal> .
+# 
+# http://www.w3.org/2003/01/geo/wgs84_pos#long
+<http://www.w3.org/2003/01/geo/wgs84_pos#long> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.w3.org/2003/01/geo/wgs84_pos#long> <http://www.w3.org/2000/01/rdf-schema#domain> <http://purl.org/dc/terms/Location> .
+<http://www.w3.org/2003/01/geo/wgs84_pos#long> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#decimal> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Classes
+# #
+# #################################################################
+# 
+# 
+# http://purl.obolibrary.org/obo/ENVO_00000428
+<http://purl.obolibrary.org/obo/ENVO_00000428> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/ENVO_00000428> <http://www.w3.org/2000/01/rdf-schema#comment> "Biome" .
+# 
+# http://purl.obolibrary.org/obo/ENVO_00002297
+<http://purl.obolibrary.org/obo/ENVO_00002297> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/ENVO_00002297> <http://www.w3.org/2000/01/rdf-schema#comment> "enviromental feature" .
+# 
+# http://purl.obolibrary.org/obo/ENVO_00010483
+<http://purl.obolibrary.org/obo/ENVO_00010483> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/ENVO_00010483> <http://www.w3.org/2000/01/rdf-schema#comment> "enviromental material" .
+# 
+# http://purl.org/dc/terms/Location
+<http://purl.org/dc/terms/Location> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.org/dc/terms/Location> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid1 .
+_:genid1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid1 <http://www.w3.org/2002/07/owl#onProperty> <http://www.cenpat-conicet.gob.ar/ontology/location_of> .
+_:genid1 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.cenpat-conicet.gob.ar/ontology/BioEvent> .
+<http://purl.org/dc/terms/Location> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid2 .
+_:genid2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid2 <http://www.w3.org/2002/07/owl#onProperty> <http://www.cenpat-conicet.gob.ar/ontology/into_eez> .
+_:genid2 <http://www.w3.org/2002/07/owl#qualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid2 <http://www.w3.org/2002/07/owl#onClass> <http://www.cenpat-conicet.gob.ar/ontology/Region> .
+# 
+# http://rdfs.org/ns/void#Dataset
+<http://rdfs.org/ns/void#Dataset> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://rdfs.org/ns/void#Dataset> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid3 .
+_:genid3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid3 <http://www.w3.org/2002/07/owl#onProperty> <http://www.cenpat-conicet.gob.ar/ontology/has_part> .
+_:genid3 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://rs.tdwg.org/dwc/terms/Occurrence> .
+# 
+# http://rs.tdwg.org/dwc/terms/Event
+<http://rs.tdwg.org/dwc/terms/Event> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://rs.tdwg.org/dwc/terms/Occurrence
+<http://rs.tdwg.org/dwc/terms/Occurrence> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://rs.tdwg.org/dwc/terms/Occurrence> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid4 .
+_:genid4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid4 <http://www.w3.org/2002/07/owl#onProperty> <http://www.cenpat-conicet.gob.ar/ontology/recorded_by> .
+_:genid4 <http://www.w3.org/2002/07/owl#minQualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid4 <http://www.w3.org/2002/07/owl#onClass> <http://xmlns.com/foaf/0.1/Agent> .
+<http://rs.tdwg.org/dwc/terms/Occurrence> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid5 .
+_:genid5 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid5 <http://www.w3.org/2002/07/owl#onProperty> <http://www.cenpat-conicet.gob.ar/ontology/has_event> .
+_:genid5 <http://www.w3.org/2002/07/owl#qualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid5 <http://www.w3.org/2002/07/owl#onClass> <http://www.cenpat-conicet.gob.ar/ontology/BioEvent> .
+<http://rs.tdwg.org/dwc/terms/Occurrence> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid6 .
+_:genid6 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid6 <http://www.w3.org/2002/07/owl#onProperty> <http://www.cenpat-conicet.gob.ar/ontology/has_taxon> .
+_:genid6 <http://www.w3.org/2002/07/owl#qualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid6 <http://www.w3.org/2002/07/owl#onClass> <http://rs.tdwg.org/dwc/terms/Taxon> .
+<http://rs.tdwg.org/dwc/terms/Occurrence> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid7 .
+_:genid7 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid7 <http://www.w3.org/2002/07/owl#onProperty> <http://www.cenpat-conicet.gob.ar/ontology/is_part_of> .
+_:genid7 <http://www.w3.org/2002/07/owl#qualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid7 <http://www.w3.org/2002/07/owl#onClass> <http://rdfs.org/ns/void#Dataset> .
+# 
+# http://rs.tdwg.org/dwc/terms/Taxon
+<http://rs.tdwg.org/dwc/terms/Taxon> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://rs.tdwg.org/dwc/terms/Taxon> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid8 .
+_:genid8 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid8 <http://www.w3.org/2002/07/owl#onProperty> <http://www.cenpat-conicet.gob.ar/ontology/taxon_of> .
+_:genid8 <http://www.w3.org/2002/07/owl#minQualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid8 <http://www.w3.org/2002/07/owl#onClass> <http://rs.tdwg.org/dwc/terms/Occurrence> .
+# 
+# http://www.cenpat-conicet.gob.ar/ontology/BioEvent
+<http://www.cenpat-conicet.gob.ar/ontology/BioEvent> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.cenpat-conicet.gob.ar/ontology/BioEvent> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://rs.tdwg.org/dwc/terms/Event> .
+<http://www.cenpat-conicet.gob.ar/ontology/BioEvent> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/2006/time#TemporalEntity> .
+<http://www.cenpat-conicet.gob.ar/ontology/BioEvent> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid9 .
+_:genid9 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid9 <http://www.w3.org/2002/07/owl#onProperty> <http://www.cenpat-conicet.gob.ar/ontology/event_of> .
+_:genid9 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://rs.tdwg.org/dwc/terms/Occurrence> .
+<http://www.cenpat-conicet.gob.ar/ontology/BioEvent> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid10 .
+_:genid10 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid10 <http://www.w3.org/2002/07/owl#onProperty> <http://www.cenpat-conicet.gob.ar/ontology/has_location> .
+_:genid10 <http://www.w3.org/2002/07/owl#qualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid10 <http://www.w3.org/2002/07/owl#onClass> <http://purl.org/dc/terms/Location> .
+# 
+# http://www.cenpat-conicet.gob.ar/ontology/Region
+<http://www.cenpat-conicet.gob.ar/ontology/Region> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.cenpat-conicet.gob.ar/ontology/Region> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/ENVO_00000428> .
+<http://www.cenpat-conicet.gob.ar/ontology/Region> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/ENVO_00002297> .
+<http://www.cenpat-conicet.gob.ar/ontology/Region> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/ENVO_00010483> .
+<http://www.cenpat-conicet.gob.ar/ontology/Region> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid11 .
+_:genid11 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid11 <http://www.w3.org/2002/07/owl#onProperty> <http://www.cenpat-conicet.gob.ar/ontology/has_in> .
+_:genid11 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://purl.org/dc/terms/Location> .
+# 
+# http://www.w3.org/2006/time#TemporalEntity
+<http://www.w3.org/2006/time#TemporalEntity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://xmlns.com/foaf/0.1/Agent
+<http://xmlns.com/foaf/0.1/Agent> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# Generated by the OWL API (version 5.1.0) https://github.com/owlcs/owlapi/
